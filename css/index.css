@@ -1,0 +1,78 @@
+/* reset */
+*{margin:0;padding:0;border:0;outline: 0;}
+table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000;}del,ins{text-decoration:none}p{ margin:0; padding:0}img {-ms-interpolation-mode: bicubic;}
+a{ text-decoration:none}
+img{ display: block; width: 100%; vertical-align:top;}
+input{-webkit-appearance:none;appearance:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:0;}
+.hidden,a strong, .logo, .navTit em, .cyLogo {text-indent:-5000px; display:block; height:0; font-size:0; line-height:0; overflow:hidden}
+.clear { clear:both; }
+.hide{ display: none;}
+.pa{position: absolute;}
+.fl{float:left;}
+.fr{float:right;}
+
+body{width:100%;font:normal 0.24rem/1.5 "Microsoft YaHei","Î¢ÈíÑÅºÚ"; color:#fff; word-wrap:break-word; word-break:break-all;-webkit-tap-highlight-color:rgba(255,255,255,0);background-color:#fff;-webkit-text-size-adjust:none;max-width:640px;margin:0 auto;}
+.testHei{position: absolute;top:0;left: 0;right: 0;bottom: 0;}
+.winHei{width: 100%;height: 100%;}
+
+.main,.content{width: 100%;height:100%;overflow: hidden;position: relative;}
+/******* Ê×Ò³ *******/
+
+header{position:absolute;top:0px;left:0;z-index:10;background-color:#093f8c;width:100%;}
+header .box{padding:0.1rem 0.2rem;height:0.8rem;}
+.logos{width:0.8rem;height:0.8rem;background:url('../images/logos.png') no-repeat 0 0 / 100% 100%;}
+.title{margin-left:0.15rem;height:0.8rem;}
+.title .ti{font-size:0.28rem;color:#fff;font-weight:bold;line-height:0.4rem;}
+.title .tx{font-size:0.2rem;color:#fff;line-height: 0.3rem;}
+.dlBtn{width:1.81rem;height: 0.54rem;background:url('../images/downloadBtn.png') no-repeat 0 0 / 100% 100%;margin-top: 0.13rem;text-indent:-1000px;overflow: hidden;}
+
+.column{width:100%;position: relative;overflow: hidden;}
+.mainView{height:100%;background:#08122d url('../images/bg.jpg') no-repeat 0 1rem / 100% auto;}
+.mainView .dlBtn{width:2.8rem;height:0.8rem;left:50%;top:6.5rem;margin-left:-1.4rem;background:none;}
+.mainView .guideBtn{width:2.75rem;height:0.5rem;border-radius:0.05rem;background-color:rgba(48,56,80,0.8);left:50%;top:7.6rem;margin-left:-1.375rem;line-height:0.5rem;text-align:center;}
+.mainView .guideBtn span{font-size:0.2rem;color:#fff;padding-right:0.2rem;background:url('../images/rightIc.png') no-repeat right center / auto 0.2rem;}
+
+.info{padding:0.3rem 0;background:url('../images/rowBg.jpg') repeat-y 0 0 / 100% auto;text-align: center;}
+.info .txt{text-align: center;color:#fff;}
+.info .t1{font-size:0.25rem;font-weight:bold;line-height: 0.35rem;}
+.info .t2{font-size:0.2rem;line-height: 0.4rem;}
+.info .t3{display:inline-block;width:4.05rem;height:0.42rem;line-height: 0.42rem;font-size:0.25rem;font-weight:bold;color:#09397b;background-color:#fff;border-radius:0.05rem;}
+.info .t3 span{color:#4071ff;}
+
+.way{padding:1.2rem 0 0;background:url('../images/rowBg2.jpg') repeat-y 0 0 / 100% auto;}
+.way .wayTips{width:1.78rem;height:1.05rem;top:0.15rem;left:50%;margin-left:-0.89rem;background:url('../images/iosDlTips.png') no-repeat 0 0 / 100% auto;}
+.way .view{padding:0 0.25rem;}
+.way .row{width:100%;padding:0.25rem 0;}
+.way .row .tit{height:0.4rem;line-height: 0.4rem;font-size:0.24rem;color:#09397b;margin-bottom: 0.15rem;}
+.way .row .tit i{display: inline-block;width: 0.34rem;height:100%;background:url('../images/titTips.png') no-repeat 0 0 / 100% 100%;text-align: center;color:#fff;margin-right:0.1rem;font-style:normal;}
+.way .row img{width:70%;height:auto;display:block;margin:0 auto;}
+.way .row.r5 img{width:26.6%;}
+
+.download{height:1.4rem;background:url('../images/rowBg.jpg') repeat-y 0 0 / 100% auto;text-align: center;}
+.download .dlBtn{display:inline-block;width:2.5rem;height:0.76rem;background-image:url('../images/downloadBtn.png');margin-top:0.32rem;}
+
+
+.pop{width:100%;height:100%;z-index:50;overflow-y:auto;overflow-x:hidden;position:fixed;top:0;left:0;display:none;}
+.pop .closePop{width:0.5rem;height:0.5rem;top:0.1rem;right:0.1rem;font-size:1rem;line-height:0.5rem;text-align:center;color:#fff;transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);z-index:10;}
+.pop img{width:100%;height:auto;}
+
+
+
+
+
+/******** ¿ØÖÆÀñ°üÃû×Ö´óÐ¡ ³ß´ç720 ***********/
+.doScale{transform: scale(1,1);}
+@media only screen and (max-width : 480px){
+}
+@media only screen and (max-width : 415px){
+}
+@media only screen and (max-width : 375px){
+}
+@media only screen and (max-width : 320px){
+}
+
+.horizon{width:100%;height:100%;background:#000000;position:absolute;left:0;top:0;z-index:1001;display:none;}
+.horizon_box{width:100%;height:3rem;position:absolute;top:50%;left:0;margin-top:-1.5rem;}
+.horizon_pic{width:1.5rem;height:2.54rem;margin:0 auto;text-align:center;}
+.horizon span{font-size:0.26rem;display:block;color:#a69d6e;text-align:center;padding-top:0.1rem;}
+.horizon i{width:100%;height:100%;background:url(../images/pm.jpg) 0 0 no-repeat;background-size:100% 100%;margin:0 auto;-webkit-animation: maskAni 1.5s ease infinite alternate;position:static;display:block;}
