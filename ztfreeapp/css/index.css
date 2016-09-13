@@ -28,7 +28,7 @@ header .box{padding:0.1rem 0.2rem;height:0.8rem;}
 
 .column{width:100%;position: relative;overflow: hidden;}
 .mainView{height:100%;background:#08122d url('../images/bg.jpg') no-repeat 0 1rem / 100% auto;}
-.mainView .dlBtn{width:2.8rem;height:0.8rem;left:50%;top:6.5rem;margin-left:-1.4rem;background:none;}
+.mainView .dlBtn{width:2.8rem;height:0.8rem;left:50%;top:6.5rem;margin-left:-1.4rem;}
 .mainView .guideBtn{width:2.75rem;height:0.5rem;border-radius:0.05rem;background-color:rgba(48,56,80,0.8);left:50%;top:7.6rem;margin-left:-1.375rem;line-height:0.5rem;text-align:center;}
 .mainView .guideBtn span{font-size:0.2rem;color:#fff;padding-right:0.2rem;background:url('../images/rightIc.png') no-repeat right center / auto 0.2rem;}
 
