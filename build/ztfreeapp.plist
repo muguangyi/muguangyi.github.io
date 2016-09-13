@@ -27,13 +27,13 @@
 <key>metadata</key>
 <dict>
 <key>bundle-identifier</key>
-<string>com.ztgame.fuhuabu</string>
+<string>com.ztgame.tech</string>
 <key>bundle-version</key>
 <string>1.0</string>
 <key>kind</key>
 <string>software</string>
 <key>title</key>
-<string>cos</string>
+<string>ztfreeapp</string>
 </dict>
 </dict>
 </array>
