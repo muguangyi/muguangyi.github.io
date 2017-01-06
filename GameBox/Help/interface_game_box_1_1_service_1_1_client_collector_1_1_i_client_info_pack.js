@@ -1,0 +1,25 @@
+var interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack =
+[
+    [ "DeviceMode", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a150b9b043fd365a4a3fbfd9acd4534c9", null ],
+    [ "DeviceName", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a1f2a925cab65fa19832f7ead2e6a74b9", null ],
+    [ "DeviceIdentifier", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#adc9e6149302347afa1685416e4d501bf", null ],
+    [ "GraphicsDeviceId", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#afcea0261694b9b85dccb785dd4a04696", null ],
+    [ "GraphicsDeviceName", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a7ce20ebbaaf037175a1ad3d7f7dfcc5e", null ],
+    [ "GraphicsDeviceType", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a7cfe320ca5f8fbde5e2444f4583e41c1", null ],
+    [ "GraphicsDeviceVendor", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a5c5add9cf2061988a521f3575cebd807", null ],
+    [ "GraphicsDeviceVersion", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#ab711e4f1a050d9488f85116c8cd19633", null ],
+    [ "GraphicsMemorySize", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a774ee51311006666dbc5ff408eb87af6", null ],
+    [ "OperatingSystem", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a43e3dbe800e0fd666ec7337cd8332f2f", null ],
+    [ "ProcessorCount", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a2205d9322db8aff664a8cf9c96b115bf", null ],
+    [ "ProcessorFrequency", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a50adb273d20970a073d9aaf960ac6d7d", null ],
+    [ "ProcessorType", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a795b74ed051cb42cc660a63f9ea21a8c", null ],
+    [ "DoesSupportGyroscope", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a1c6c23acdd5a081226425967350c54ba", null ],
+    [ "DoesSupportLocationService", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a959533f59e714320c52a648e45e161a9", null ],
+    [ "SystemMemorySize", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#ab7e5775ba1ad45db2e068d20fd6958fc", null ],
+    [ "NetworkReachability", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#aa55b30cd1ea9fd47a2ecd4e0b0e156d2", null ],
+    [ "ResolutionWidth", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a0972dd050bdfbbedfeeb14a5915402a2", null ],
+    [ "ResolutionHeight", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#ab6c3526e72a917ab1cd786717cfd8ab3", null ],
+    [ "ResolutionRefreshRate", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#ad3b5b21cbedcefb78808e0e3cd7b1e77", null ],
+    [ "Nation", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#aca3f1e51ed683154f2f71e0c65d18285", null ],
+    [ "Carrier", "interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#a2ca0c8b513812fd6ea16f693f2846d6e", null ]
+];

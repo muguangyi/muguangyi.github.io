@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GameBox: GameBox.Framework.AsyncTask类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GameBox
+   &#160;<span id="projectnumber">1.0.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_game_box_1_1_framework_1_1_async_task.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_game_box_1_1_framework_1_1_async_task-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">GameBox.Framework.AsyncTask类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>异步任务基类。  
+ <a href="class_game_box_1_1_framework_1_1_async_task.html#details">更多...</a></p>
+
+<p>继承自 <a class="el" href="class_game_box_1_1_framework_1_1_c0.html">GameBox.Framework.C0</a> .</p>
+
+<p>被 <a class="el" href="class_game_box_1_1_framework_1_1_async_call_task.html">GameBox.Framework.AsyncCallTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_async_call_with_result_task.html">GameBox.Framework.AsyncCallWithResultTask&lt; TResult &gt;</a>, <a class="el" href="class_game_box_1_1_framework_1_1_async_operation_task.html">GameBox.Framework.AsyncOperationTask&lt; T &gt;</a>, GameBox.Framework.AsyncTask.InternalTask, <a class="el" href="class_game_box_1_1_framework_1_1_audio_cross_fade_task.html">GameBox.Framework.AudioCrossFadeTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_completed_task.html">GameBox.Framework.CompletedTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_file_read_task.html">GameBox.Framework.FileReadTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_file_write_task.html">GameBox.Framework.FileWriteTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_http_download_task.html">GameBox.Framework.HttpDownloadTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_services_task.html">GameBox.Framework.ServicesTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_service_task.html">GameBox.Framework.ServiceTask&lt; T &gt;</a>, <a class="el" href="class_game_box_1_1_framework_1_1_service_task.html">GameBox.Framework.ServiceTask&lt; T &gt;</a>, <a class="el" href="class_game_box_1_1_framework_1_1_wait_all_task.html">GameBox.Framework.WaitAllTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_w_w_w_load_from_cache_task.html">GameBox.Framework.WWWLoadFromCacheTask</a> , 以及 <a class="el" href="class_game_box_1_1_framework_1_1_w_w_w_load_task.html">GameBox.Framework.WWWLoadTask</a> 继承.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:aad1018fb21d03e26f25d04370ec94f16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html#aad1018fb21d03e26f25d04370ec94f16">AsyncTask</a> (bool canRunOnThread)</td></tr>
+<tr class="memdesc:aad1018fb21d03e26f25d04370ec94f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">构造函数。  <a href="#aad1018fb21d03e26f25d04370ec94f16">更多...</a><br /></td></tr>
+<tr class="separator:aad1018fb21d03e26f25d04370ec94f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392bb8eb9b20adedfe0c5c0fdd2fc07f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html">AsyncTask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html#a392bb8eb9b20adedfe0c5c0fdd2fc07f">Start</a> ()</td></tr>
+<tr class="memdesc:a392bb8eb9b20adedfe0c5c0fdd2fc07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">开始任务。  <a href="#a392bb8eb9b20adedfe0c5c0fdd2fc07f">更多...</a><br /></td></tr>
+<tr class="separator:a392bb8eb9b20adedfe0c5c0fdd2fc07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11068cd9acdb173c0478511e6aa186b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html">AsyncTask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html#a11068cd9acdb173c0478511e6aa186b5">Continue</a> (Func&lt; <a class="el" href="class_game_box_1_1_framework_1_1_async_task.html">AsyncTask</a>, object &gt; handler)</td></tr>
+<tr class="memdesc:a11068cd9acdb173c0478511e6aa186b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Task结束后继续处理。  <a href="#a11068cd9acdb173c0478511e6aa186b5">更多...</a><br /></td></tr>
+<tr class="separator:a11068cd9acdb173c0478511e6aa186b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_game_box_1_1_framework_1_1_c0"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_game_box_1_1_framework_1_1_c0')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_game_box_1_1_framework_1_1_c0.html">GameBox.Framework.C0</a></td></tr>
+<tr class="memitem:a693a9a665cd84d617d1385ac4533c9b7 inherit pub_methods_class_game_box_1_1_framework_1_1_c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_c0.html#a693a9a665cd84d617d1385ac4533c9b7">C0</a> ()</td></tr>
+<tr class="memdesc:a693a9a665cd84d617d1385ac4533c9b7 inherit pub_methods_class_game_box_1_1_framework_1_1_c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">构造函数。  <a href="class_game_box_1_1_framework_1_1_c0.html#a693a9a665cd84d617d1385ac4533c9b7">更多...</a><br /></td></tr>
+<tr class="separator:a693a9a665cd84d617d1385ac4533c9b7 inherit pub_methods_class_game_box_1_1_framework_1_1_c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0900340f5816c42d58336959dccf748a inherit pub_methods_class_game_box_1_1_framework_1_1_c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_c0.html#a0900340f5816c42d58336959dccf748a">Dispose</a> ()</td></tr>
+<tr class="memdesc:a0900340f5816c42d58336959dccf748a inherit pub_methods_class_game_box_1_1_framework_1_1_c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">析构函数。  <a href="class_game_box_1_1_framework_1_1_c0.html#a0900340f5816c42d58336959dccf748a">更多...</a><br /></td></tr>
+<tr class="separator:a0900340f5816c42d58336959dccf748a inherit pub_methods_class_game_box_1_1_framework_1_1_c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a748fde4d4c7270e5af729264e5d9992a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html#a748fde4d4c7270e5af729264e5d9992a">IsDone</a> ()</td></tr>
+<tr class="memdesc:a748fde4d4c7270e5af729264e5d9992a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Task是否完成。  <a href="#a748fde4d4c7270e5af729264e5d9992a">更多...</a><br /></td></tr>
+<tr class="separator:a748fde4d4c7270e5af729264e5d9992a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:aab5e7bff5f3f48d06fa90304868a5912"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html#aab5e7bff5f3f48d06fa90304868a5912">Result</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:aab5e7bff5f3f48d06fa90304868a5912"><td class="mdescLeft">&#160;</td><td class="mdescRight">Task结果。  <a href="#aab5e7bff5f3f48d06fa90304868a5912">更多...</a><br /></td></tr>
+<tr class="separator:aab5e7bff5f3f48d06fa90304868a5912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_game_box_1_1_framework_1_1_c0"><td colspan="2" onclick="javascript:toggleInherit('properties_class_game_box_1_1_framework_1_1_c0')"><img src="closed.png" alt="-"/>&#160;属性 继承自 <a class="el" href="class_game_box_1_1_framework_1_1_c0.html">GameBox.Framework.C0</a></td></tr>
+<tr class="memitem:a735126e81d52108e1203877079ffb4db inherit properties_class_game_box_1_1_framework_1_1_c0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_c0.html#a735126e81d52108e1203877079ffb4db">RuntimeId</a><code> [get]</code></td></tr>
+<tr class="memdesc:a735126e81d52108e1203877079ffb4db inherit properties_class_game_box_1_1_framework_1_1_c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">运行时Id。  <a href="class_game_box_1_1_framework_1_1_c0.html#a735126e81d52108e1203877079ffb4db">更多...</a><br /></td></tr>
+<tr class="separator:a735126e81d52108e1203877079ffb4db inherit properties_class_game_box_1_1_framework_1_1_c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>异步任务基类。 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="aad1018fb21d03e26f25d04370ec94f16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad1018fb21d03e26f25d04370ec94f16">&#9670;&nbsp;</a></span>AsyncTask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameBox.Framework.AsyncTask.AsyncTask </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>canRunOnThread</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>构造函数。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">canRunOnThread</td><td>是否能运行在子线程上。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a392bb8eb9b20adedfe0c5c0fdd2fc07f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a392bb8eb9b20adedfe0c5c0fdd2fc07f">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html">AsyncTask</a> GameBox.Framework.AsyncTask.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>开始任务。 </p>
+<dl class="section return"><dt>返回</dt><dd>返回开始的任务。</dd></dl>
+
+</div>
+</div>
+<a id="a11068cd9acdb173c0478511e6aa186b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11068cd9acdb173c0478511e6aa186b5">&#9670;&nbsp;</a></span>Continue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html">AsyncTask</a> GameBox.Framework.AsyncTask.Continue </td>
+          <td>(</td>
+          <td class="paramtype">Func&lt; <a class="el" href="class_game_box_1_1_framework_1_1_async_task.html">AsyncTask</a>, object &gt;&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Task结束后继续处理。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">handler</td><td>继续处理的函数句柄。该句柄是以上一个任务作为传入参数，而需要返回下一个需要执行的任务。若返回非AsyncTask类型，则认为是任务结束，并以该返回值作为结束任务的Result。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>返回一个任务。</dd></dl>
+
+</div>
+</div>
+<a id="a748fde4d4c7270e5af729264e5d9992a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a748fde4d4c7270e5af729264e5d9992a">&#9670;&nbsp;</a></span>IsDone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool GameBox.Framework.AsyncTask.IsDone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Task是否完成。 </p>
+<dl class="section return"><dt>返回</dt><dd>true表示完成；false表示未完成。</dd></dl>
+
+<p>被 <a class="el" href="class_game_box_1_1_framework_1_1_async_call_with_result_task.html#ace21c783baa896d8259b94fd8c51ccdc">GameBox.Framework.AsyncCallWithResultTask&lt; TResult &gt;</a>, <a class="el" href="class_game_box_1_1_framework_1_1_service_task.html#a148e56f1c4ddc947051939284c700f18">GameBox.Framework.ServiceTask&lt; T &gt;</a>, <a class="el" href="class_game_box_1_1_framework_1_1_file_write_task.html#ad0923f2451e8da581d87589163dd2db4">GameBox.Framework.FileWriteTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_http_download_task.html#ae067a4d8a736d851cf744ee7df0d4f96">GameBox.Framework.HttpDownloadTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_w_w_w_load_task.html#a9995ada898ec1c7590ed81f8fec0e155">GameBox.Framework.WWWLoadTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_async_call_task.html#a42db0c46a6066555bab016f497ef5a55">GameBox.Framework.AsyncCallTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_wait_all_task.html#ac2a8bdab10eae2e1b20a2da495935799">GameBox.Framework.WaitAllTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_audio_cross_fade_task.html#a3da12b829ed7a905ce71fa5fbd35c160">GameBox.Framework.AudioCrossFadeTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_file_read_task.html#a114292b37d7ea03be152af1ebe2ae76b">GameBox.Framework.FileReadTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_async_operation_task.html#a455711ee3e69a758b334ccf3d274e5fc">GameBox.Framework.AsyncOperationTask&lt; T &gt;</a>, <a class="el" href="class_game_box_1_1_framework_1_1_w_w_w_load_from_cache_task.html#ae114eb15ac96cb6894723a528e90705d">GameBox.Framework.WWWLoadFromCacheTask</a>, <a class="el" href="class_game_box_1_1_framework_1_1_services_task.html#ae7590d3a8b6abdce73f401f879ce792b">GameBox.Framework.ServicesTask</a> , 以及 <a class="el" href="class_game_box_1_1_framework_1_1_service_task.html#a148e56f1c4ddc947051939284c700f18">GameBox.Framework.ServiceTask&lt; T &gt;</a> 重载.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a id="aab5e7bff5f3f48d06fa90304868a5912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5e7bff5f3f48d06fa90304868a5912">&#9670;&nbsp;</a></span>Result</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">object GameBox.Framework.AsyncTask.Result</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Task结果。 </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>source/Runtime/ServiceCenter/Tasks/AsyncTask.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_game_box.html">GameBox</a></li><li class="navelem"><a class="el" href="namespace_game_box_1_1_framework.html">Framework</a></li><li class="navelem"><a class="el" href="class_game_box_1_1_framework_1_1_async_task.html">AsyncTask</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

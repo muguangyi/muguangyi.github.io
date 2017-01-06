@@ -1,0 +1,5 @@
+var namespace_game_box_1_1_service_1_1_asset_manager_updater =
+[
+    [ "AssetManagerUpdaterInstaller", "class_game_box_1_1_service_1_1_asset_manager_updater_1_1_asset_manager_updater_installer.html", "class_game_box_1_1_service_1_1_asset_manager_updater_1_1_asset_manager_updater_installer" ],
+    [ "IAssetManagerUpdater", "interface_game_box_1_1_service_1_1_asset_manager_updater_1_1_i_asset_manager_updater.html", "interface_game_box_1_1_service_1_1_asset_manager_updater_1_1_i_asset_manager_updater" ]
+];
