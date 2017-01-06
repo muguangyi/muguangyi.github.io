@@ -1,0 +1,48 @@
+# StateSet(*T*) Class
+ 
+
+状态集合。
+
+
+## Inheritance Hierarchy
+<a href="http://msdn2.microsoft.com/zh-cn/library/e5kfa45b" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="2f732106-c1d3-cfc7-e9bd-96254f667f0a">GameBox.Framework.C0</a><br />&nbsp;&nbsp;&nbsp;&nbsp;GameBox.Framework.StateSet(T)<br />
+**Namespace:**&nbsp;<a href="a8957fe6-9cc0-3a6d-cd5c-a2a246efee1e">GameBox.Framework</a><br />**Assembly:**&nbsp;ServiceCenter (in ServiceCenter.dll) Version: 1.0.0.0 (1.0.0.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+public sealed class StateSet<T> : C0
+
+```
+
+
+#### Type Parameters
+&nbsp;<dl><dt>T</dt><dd>\[Missing <typeparam name="T"/> documentation for "T:GameBox.Framework.StateSet`1"\]</dd></dl>&nbsp;
+The StateSet(T) type exposes the following members.
+
+
+## Constructors
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="500568de-bdb9-f57f-189b-667c87978cc6">StateSet(T)</a></td><td>
+Initializes a new instance of the StateSet(T) class</td></tr></table>&nbsp;
+<a href="#stateset(*t*)-class">Back to Top</a>
+
+## Methods
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="ac6513b0-6240-53a6-cc58-0d7be6280f94">AddState</a></td><td></td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="3d7b83fe-5b9b-8cde-6b8d-1817d1d5eac1">Dispose</a></td><td>
+Releases all resources used by the StateSet(T)
+ (Overrides <a href="6f1cd657-ebcb-6541-cc94-2d52ac09088b">C0.Dispose()</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/zh-cn/library/bsc2ak47" target="_blank">Equals</a></td><td>
+Determines whether the specified <a href="http://msdn2.microsoft.com/zh-cn/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/zh-cn/library/e5kfa45b" target="_blank">Object</a>.
+ (Inherited from <a href="http://msdn2.microsoft.com/zh-cn/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="de108ddc-6fab-595d-6e8c-c0e06017ffe2">FindState</a></td><td></td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/zh-cn/library/zdee4b3y" target="_blank">GetHashCode</a></td><td>
+Serves as a hash function for a particular type.
+ (Inherited from <a href="http://msdn2.microsoft.com/zh-cn/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/zh-cn/library/dfwy45w9" target="_blank">GetType</a></td><td>
+Gets the type of the current instance.
+ (Inherited from <a href="http://msdn2.microsoft.com/zh-cn/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/zh-cn/library/7bxwbwt2" target="_blank">ToString</a></td><td>
+Returns a string that represents the current object.
+ (Inherited from <a href="http://msdn2.microsoft.com/zh-cn/library/e5kfa45b" target="_blank">Object</a>.)</td></tr></table>&nbsp;
+<a href="#stateset(*t*)-class">Back to Top</a>
+
+## See Also
+
+
+#### Reference
+<a href="a8957fe6-9cc0-3a6d-cd5c-a2a246efee1e">GameBox.Framework Namespace</a><br />

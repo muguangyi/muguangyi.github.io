@@ -1,0 +1,25 @@
+# IByteArray.WriteByte Method 
+ 
+
+写一个字节。
+
+**Namespace:**&nbsp;<a href="cbcf8424-cd18-fbda-feb6-4e99463c65b9">GameBox.Service.ByteStorage</a><br />**Assembly:**&nbsp;ByteStorage (in ByteStorage.dll) Version: 1.0.0.0 (1.0.0.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+void WriteByte(
+	byte data
+)
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>data</dt><dd>Type: <a href="http://msdn2.microsoft.com/zh-cn/library/yyb1w04y" target="_blank">System.Byte</a><br />\[Missing <param name="data"/> documentation for "M:GameBox.Service.ByteStorage.IByteArray.WriteByte(System.Byte)"\]</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="69eda9e7-73ef-a7c3-2002-dfb840101c61">IByteArray Interface</a><br /><a href="cbcf8424-cd18-fbda-feb6-4e99463c65b9">GameBox.Service.ByteStorage Namespace</a><br />
