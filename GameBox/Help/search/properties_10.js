@@ -7,8 +7,5 @@ var searchData=
   ['servicewidth',['ServiceWidth',['../class_game_box_1_1_framework_1_1_graph_style.html#a31e68904f92c03fc066eb585b43ddc34',1,'GameBox::Framework::GraphStyle']]],
   ['size',['Size',['../class_game_box_1_1_service_1_1_asset_manager_1_1_asset_pack_info.html#a6e302a39e6f12ea1e1d90596aace65ce',1,'GameBox.Service.AssetManager.AssetPackInfo.Size()'],['../interface_game_box_1_1_service_1_1_asset_updater_1_1_i_asset_description.html#a6558b92b5be27ebd058d4fecd85c9a38',1,'GameBox.Service.AssetUpdater.IAssetDescription.Size()'],['../interface_game_box_1_1_service_1_1_byte_storage_1_1_i_byte_array.html#aa69959668a86a52e50389e49997ae93b',1,'GameBox.Service.ByteStorage.IByteArray.Size()']]],
   ['smalllabel',['SmallLabel',['../class_game_box_1_1_framework_1_1_graph_style.html#a989faa3aa1ba9461f21b4b9380d2f4c3',1,'GameBox::Framework::GraphStyle']]],
-  ['state',['State',['../class_game_box_1_1_framework_1_1_state_machine.html#a581eeb0c485ebf1ddc6b9b71aa862cd7',1,'GameBox::Framework::StateMachine']]],
-  ['status',['Status',['../interface_game_box_1_1_service_1_1_geo_query_1_1_i_geo_result.html#aa18f7cdf6588eb9343d8c8af5aad04df',1,'GameBox::Service::GeoQuery::IGeoResult']]],
-  ['subdivision',['Subdivision',['../interface_game_box_1_1_service_1_1_geo_query_1_1_i_geo_result.html#af483c46eb0a1b5dc0783024c74951006',1,'GameBox::Service::GeoQuery::IGeoResult']]],
-  ['systemmemorysize',['SystemMemorySize',['../interface_game_box_1_1_service_1_1_client_collector_1_1_i_client_info_pack.html#ab7e5775ba1ad45db2e068d20fd6958fc',1,'GameBox::Service::ClientCollector::IClientInfoPack']]]
+  ['state',['State',['../class_game_box_1_1_framework_1_1_state_machine.html#a581eeb0c485ebf1ddc6b9b71aa862cd7',1,'GameBox::Framework::StateMachine']]]
 ];

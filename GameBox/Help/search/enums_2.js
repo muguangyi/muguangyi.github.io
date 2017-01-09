@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['geoenginetype',['GeoEngineType',['../namespace_game_box_1_1_service_1_1_geo_query.html#a30d917ccfa1e3ac30cbf3a94113c1fb3',1,'GameBox::Service::GeoQuery']]]
+  ['levelloadpolicy',['LevelLoadPolicy',['../namespace_game_box_1_1_service_1_1_level_system.html#a9a14714aaac810ec5df689002af12ea6',1,'GameBox::Service::LevelSystem']]],
+  ['loglevel',['LogLevel',['../namespace_game_box_1_1_framework.html#ac24f2325a94e7d7af29d4e818d2e1b7b',1,'GameBox::Framework']]],
+  ['logtype',['LogType',['../namespace_game_box_1_1_framework.html#aaca99a31fc1bde65cb0ef88be8ee6920',1,'GameBox::Framework']]]
 ];

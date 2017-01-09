@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['path',['Path',['../class_game_box_1_1_service_1_1_level_system_1_1_chunk_object.html#ad5310615bdc8ad7ddfa46b1b3d54ed05',1,'GameBox.Service.LevelSystem.ChunkObject.Path()'],['../class_game_box_1_1_service_1_1_level_system_1_1_level_object.html#a601a830ff1cc40e68d337c9b7cb8b38e',1,'GameBox.Service.LevelSystem.LevelObject.Path()']]],
-  ['prefabpath',['PrefabPath',['../class_game_box_1_1_service_1_1_level_system_1_1_prefab_object.html#ad9af8954e4b24463cd62978166caf08d',1,'GameBox::Service::LevelSystem::PrefabObject']]]
+  ['retrytimes',['RetryTimes',['../class_game_box_1_1_service_1_1_giant_light_server_1_1_giant_light_server_installer.html#a9c49856256bf0480c3bb03a01dbfc8fe',1,'GameBox.Service.GiantLightServer.GiantLightServerInstaller.RetryTimes()'],['../class_game_box_1_1_service_1_1_giant_free_server_1_1_giant_free_server_installer.html#a3bb1b1bc2d60418e1974525b6e05b1f8',1,'GameBox.Service.GiantFreeServer.GiantFreeServerInstaller.RetryTimes()']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['scene',['Scene',['../class_game_box_1_1_service_1_1_game_framework_1_1_scene.html',1,'GameBox::Service::GameFramework']]],
   ['scenechunkdata',['SceneChunkData',['../class_game_box_1_1_service_1_1_level_system_1_1_scene_chunk_data.html',1,'GameBox::Service::LevelSystem']]],
   ['scenechunkrefdata',['SceneChunkRefData',['../class_game_box_1_1_service_1_1_level_system_1_1_scene_chunk_ref_data.html',1,'GameBox::Service::LevelSystem']]],
   ['scenegroupdata',['SceneGroupData',['../class_game_box_1_1_service_1_1_level_system_1_1_scene_group_data.html',1,'GameBox::Service::LevelSystem']]],

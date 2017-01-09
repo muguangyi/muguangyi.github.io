@@ -6,7 +6,7 @@ var searchData=
   ['levelsysteminstaller',['LevelSystemInstaller',['../class_game_box_1_1_service_1_1_level_system_1_1_level_system_installer.html',1,'GameBox::Service::LevelSystem']]],
   ['lightmodifiereditor',['LightModifierEditor',['../class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_editor.html',1,'GameBox::Service::LevelSystem']]],
   ['lightmodifierobject',['LightModifierObject',['../class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_object.html',1,'GameBox::Service::LevelSystem']]],
-  ['logger',['Logger',['../class_game_box_1_1_framework_1_1_logger.html',1,'GameBox.Framework.Logger&lt; T &gt;'],['../class_game_box_1_1_framework_1_1_logger.html',1,'GameBox.Framework.Logger']]],
+  ['logger',['Logger',['../class_game_box_1_1_framework_1_1_logger.html',1,'GameBox.Framework.Logger'],['../class_game_box_1_1_framework_1_1_logger.html',1,'GameBox.Framework.Logger&lt; T &gt;']]],
   ['logger_3c_20t_20_3e',['Logger&lt; T &gt;',['../class_game_box_1_1_framework_1_1_logger.html',1,'GameBox::Framework']]],
   ['luabridgeattribute',['LuaBridgeAttribute',['../class_game_box_1_1_service_1_1_lua_runtime_1_1_lua_bridge_attribute.html',1,'GameBox::Service::LuaRuntime']]],
   ['luaprotocolbufferinstaller',['LuaProtocolBufferInstaller',['../class_game_box_1_1_service_1_1_lua_runtime_1_1_protocol_buffer_1_1_lua_protocol_buffer_installer.html',1,'GameBox::Service::LuaRuntime::ProtocolBuffer']]],

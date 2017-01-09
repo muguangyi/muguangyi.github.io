@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['retrytimes',['RetryTimes',['../class_game_box_1_1_service_1_1_giant_light_server_1_1_giant_light_server_installer.html#a9c49856256bf0480c3bb03a01dbfc8fe',1,'GameBox.Service.GiantLightServer.GiantLightServerInstaller.RetryTimes()'],['../class_game_box_1_1_service_1_1_giant_free_server_1_1_giant_free_server_installer.html#a3bb1b1bc2d60418e1974525b6e05b1f8',1,'GameBox.Service.GiantFreeServer.GiantFreeServerInstaller.RetryTimes()']]]
+  ['valid',['Valid',['../class_game_box_1_1_service_1_1_asset_manager_updater_1_1_asset_manager_updater_installer.html#ab91ad622ffb5c5b2b0ef8d98799d085a',1,'GameBox::Service::AssetManagerUpdater::AssetManagerUpdaterInstaller']]],
+  ['validatedata',['ValidateData',['../class_game_box_1_1_service_1_1_level_system_1_1_level_system_installer.html#ac3fe908353d60db2cf53425c29e38a00',1,'GameBox::Service::LevelSystem::LevelSystemInstaller']]]
 ];

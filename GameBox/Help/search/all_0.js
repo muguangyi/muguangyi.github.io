@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addlistener',['AddListener',['../class_game_box_1_1_service_1_1_game_framework_1_1_scene.html#aeb097c7433027e1628681aa58eadd14c',1,'GameBox.Service.GameFramework.Scene.AddListener()'],['../class_game_box_1_1_service_1_1_giant_light_framework_1_1_giant_light_scene.html#af48be04e222f0d1f78d7c3d5a246759c',1,'GameBox.Service.GiantLightFramework.GiantLightScene.AddListener()'],['../interface_game_box_1_1_service_1_1_native_channel_1_1_i_native_channel.html#a36dc8e1ab5b7fa13f58fc309f3d382e7',1,'GameBox.Service.NativeChannel.INativeChannel.AddListener()'],['../class_game_box_1_1_framework_1_1_dispatcher.html#a7dbe9d3da5634a9f5a97fa8b9aef0984',1,'GameBox.Framework.Dispatcher.AddListener()']]],
+  ['addlistener',['AddListener',['../class_game_box_1_1_framework_1_1_dispatcher.html#a7dbe9d3da5634a9f5a97fa8b9aef0984',1,'GameBox::Framework::Dispatcher']]],
   ['addoption',['AddOption',['../interface_game_box_1_1_service_1_1_u_i_1_1_i_drop_down.html#af8ba0febebf8b9ef93add97f9d29406f',1,'GameBox::Service::UI::IDropDown']]],
   ['addstate',['AddState',['../class_game_box_1_1_framework_1_1_state_set.html#a31c570f814958a2fedb04a01bf9a6874',1,'GameBox::Framework::StateSet']]],
   ['addtogglechange',['AddToggleChange',['../interface_game_box_1_1_service_1_1_u_i_1_1_i_toggles.html#af69bc3a90ab5dc6fd18b65b8b0b8697b',1,'GameBox::Service::UI::IToggles']]],

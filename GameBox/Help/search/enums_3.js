@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['levelloadpolicy',['LevelLoadPolicy',['../namespace_game_box_1_1_service_1_1_level_system.html#a9a14714aaac810ec5df689002af12ea6',1,'GameBox::Service::LevelSystem']]],
-  ['loglevel',['LogLevel',['../namespace_game_box_1_1_framework.html#ac24f2325a94e7d7af29d4e818d2e1b7b',1,'GameBox::Framework']]],
-  ['logtype',['LogType',['../namespace_game_box_1_1_framework.html#aaca99a31fc1bde65cb0ef88be8ee6920',1,'GameBox::Framework']]]
+  ['sceneobjecttype',['SceneObjectType',['../namespace_game_box_1_1_service_1_1_level_system.html#a5a95fe3549109a21eeee1b153e9e3aa6',1,'GameBox::Service::LevelSystem']]],
+  ['seekorigin',['SeekOrigin',['../namespace_game_box_1_1_service_1_1_byte_storage.html#ad12781b1c96961f7f8143feedcd7c5d0',1,'GameBox::Service::ByteStorage']]]
 ];

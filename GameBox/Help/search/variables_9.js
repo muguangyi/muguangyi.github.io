@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['minbytearraysize',['MinByteArraySize',['../class_game_box_1_1_service_1_1_byte_storage_1_1_byte_storage_installer.html#a0f0f32f3770de2820bb2c5bfb5bc8678',1,'GameBox::Service::ByteStorage::ByteStorageInstaller']]]
+  ['path',['Path',['../class_game_box_1_1_service_1_1_level_system_1_1_chunk_object.html#ad5310615bdc8ad7ddfa46b1b3d54ed05',1,'GameBox.Service.LevelSystem.ChunkObject.Path()'],['../class_game_box_1_1_service_1_1_level_system_1_1_level_object.html#a601a830ff1cc40e68d337c9b7cb8b38e',1,'GameBox.Service.LevelSystem.LevelObject.Path()']]],
+  ['prefabpath',['PrefabPath',['../class_game_box_1_1_service_1_1_level_system_1_1_prefab_object.html#ad9af8954e4b24463cd62978166caf08d',1,'GameBox::Service::LevelSystem::PrefabObject']]]
 ];
