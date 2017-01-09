@@ -48,6 +48,5 @@ var searchData=
   ['retrytimes',['RetryTimes',['../class_game_box_1_1_service_1_1_giant_light_server_1_1_giant_light_server_installer.html#a9c49856256bf0480c3bb03a01dbfc8fe',1,'GameBox.Service.GiantLightServer.GiantLightServerInstaller.RetryTimes()'],['../class_game_box_1_1_service_1_1_giant_free_server_1_1_giant_free_server_installer.html#a3bb1b1bc2d60418e1974525b6e05b1f8',1,'GameBox.Service.GiantFreeServer.GiantFreeServerInstaller.RetryTimes()']]],
   ['revision',['Revision',['../class_game_box_1_1_framework_1_1_version.html#a8745d9891434d211c14cb65f6d59216a',1,'GameBox::Framework::Version']]],
   ['run',['Run',['../interface_game_box_1_1_framework_1_1_i_service.html#a4ec00c740db787f06e8f564a5ca7e1e7',1,'GameBox::Framework::IService']]],
-  ['runasynctask',['RunAsyncTask',['../interface_game_box_1_1_framework_1_1_i_service_host.html#a22f732991a7752e550b7a737ade96019',1,'GameBox.Framework.IServiceHost.RunAsyncTask()'],['../class_game_box_1_1_framework_1_1_service_editor.html#ab045fc2477faaf8d48927c094486bdce',1,'GameBox.Framework.ServiceEditor.RunAsyncTask()'],['../class_game_box_1_1_framework_1_1_service_player.html#a9f74136c0e44fc35f8fc9ce13540a88c',1,'GameBox.Framework.ServicePlayer.RunAsyncTask()']]],
   ['runtimeid',['RuntimeId',['../class_game_box_1_1_framework_1_1_c0.html#a735126e81d52108e1203877079ffb4db',1,'GameBox::Framework::C0']]]
 ];

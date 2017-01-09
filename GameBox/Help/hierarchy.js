@@ -1,7 +1,10 @@
 var hierarchy =
 [
     [ "GameBox.Service.AssetManager.AssetInfo", "class_game_box_1_1_service_1_1_asset_manager_1_1_asset_info.html", null ],
+    [ "GameBox.Service.AssetUpdater.AssetListUpdaterInstaller", "class_game_box_1_1_service_1_1_asset_updater_1_1_asset_list_updater_installer.html", null ],
     [ "GameBox.Service.AssetManager.AssetManagerInfo", "class_game_box_1_1_service_1_1_asset_manager_1_1_asset_manager_info.html", null ],
+    [ "GameBox.Service.AssetManager.AssetManagerInstaller", "class_game_box_1_1_service_1_1_asset_manager_1_1_asset_manager_installer.html", null ],
+    [ "GameBox.Service.AssetManagerUpdater.AssetManagerUpdaterInstaller", "class_game_box_1_1_service_1_1_asset_manager_updater_1_1_asset_manager_updater_installer.html", null ],
     [ "GameBox.Service.AssetManager.AssetPackInfo", "class_game_box_1_1_service_1_1_asset_manager_1_1_asset_pack_info.html", null ],
     [ "GameBox.Framework.AsyncCallWithResultTask< GameObject >", "class_game_box_1_1_framework_1_1_async_call_with_result_task.html", [
       [ "GameBox.Service.AssetManager.InstantiateTask", "class_game_box_1_1_service_1_1_asset_manager_1_1_instantiate_task.html", null ]
@@ -20,6 +23,7 @@ var hierarchy =
       [ "GameBox.Service.AssetManager.ResourceLoadTask< T >", "class_game_box_1_1_service_1_1_asset_manager_1_1_resource_load_task.html", null ]
     ] ],
     [ "GameBox.Service.ByteStorage.ByteConverter", "class_game_box_1_1_service_1_1_byte_storage_1_1_byte_converter.html", null ],
+    [ "GameBox.Service.ByteStorage.ByteStorageInstaller", "class_game_box_1_1_service_1_1_byte_storage_1_1_byte_storage_installer.html", null ],
     [ "GameBox.Framework.C0", "class_game_box_1_1_framework_1_1_c0.html", [
       [ "GameBox.Framework.AsyncTask", "class_game_box_1_1_framework_1_1_async_task.html", [
         [ "GameBox.Framework.AsyncCallTask", "class_game_box_1_1_framework_1_1_async_call_task.html", null ],
@@ -57,6 +61,7 @@ var hierarchy =
     ] ],
     [ "GameBox.Service.NetworkManager.ChannelState", "class_game_box_1_1_service_1_1_network_manager_1_1_channel_state.html", null ],
     [ "GameBox.Service.LevelSystem.ChunkBuilder", "class_game_box_1_1_service_1_1_level_system_1_1_chunk_builder.html", null ],
+    [ "GameBox.Service.ClientCollector.ClientCollectorInstaller", "class_game_box_1_1_service_1_1_client_collector_1_1_client_collector_installer.html", null ],
     [ "GameBox.Framework.CRef< T >", "class_game_box_1_1_framework_1_1_c_ref.html", null ],
     [ "GameBox.Framework.CRef< Asset >", "class_game_box_1_1_framework_1_1_c_ref.html", null ],
     [ "GameBox.Framework.CRef< AssetPack >", "class_game_box_1_1_framework_1_1_c_ref.html", null ],
@@ -67,7 +72,12 @@ var hierarchy =
       [ "GameBox.Service.LevelSystem.LightModifierObject", "class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_object.html", null ],
       [ "GameBox.Service.LevelSystem.PrefabObject", "class_game_box_1_1_service_1_1_level_system_1_1_prefab_object.html", null ]
     ] ],
+    [ "GameBox.Service.GameFramework.GameInstaller", "class_game_box_1_1_service_1_1_game_framework_1_1_game_installer.html", null ],
+    [ "GameBox.Service.GeoQuery.GeoQueryInstaller", "class_game_box_1_1_service_1_1_geo_query_1_1_geo_query_installer.html", null ],
+    [ "GameBox.Service.GiantFreeServer.GiantFreeServerInstaller", "class_game_box_1_1_service_1_1_giant_free_server_1_1_giant_free_server_installer.html", null ],
+    [ "GameBox.Service.GiantLightFramework.GiantLightGameInstaller", "class_game_box_1_1_service_1_1_giant_light_framework_1_1_giant_light_game_installer.html", null ],
     [ "GameBox.Service.GiantLightFramework.GiantLightScene", "class_game_box_1_1_service_1_1_giant_light_framework_1_1_giant_light_scene.html", null ],
+    [ "GameBox.Service.GiantLightServer.GiantLightServerInstaller", "class_game_box_1_1_service_1_1_giant_light_server_1_1_giant_light_server_installer.html", null ],
     [ "GameBox.Framework.GraphStyle", "class_game_box_1_1_framework_1_1_graph_style.html", null ],
     [ "GameBox.Service.AssetUpdater.IAssetConfigure", "interface_game_box_1_1_service_1_1_asset_updater_1_1_i_asset_configure.html", null ],
     [ "GameBox.Service.AssetUpdater.IAssetConfigureParser", "interface_game_box_1_1_service_1_1_asset_updater_1_1_i_asset_configure_parser.html", null ],
@@ -139,25 +149,28 @@ var hierarchy =
     ] ],
     [ "GameBox.Framework.IServiceArgs", "interface_game_box_1_1_framework_1_1_i_service_args.html", null ],
     [ "GameBox.Framework.IServiceGraph", "interface_game_box_1_1_framework_1_1_i_service_graph.html", null ],
-    [ "GameBox.Framework.IServiceHost", "interface_game_box_1_1_framework_1_1_i_service_host.html", [
-      [ "GameBox.Framework.ServiceEditor", "class_game_box_1_1_framework_1_1_service_editor.html", null ],
-      [ "GameBox.Framework.ServicePlayer", "class_game_box_1_1_framework_1_1_service_player.html", null ]
-    ] ],
     [ "GameBox.Framework.IServiceRunner", "interface_game_box_1_1_framework_1_1_i_service_runner.html", null ],
     [ "GameBox.Service.AssetManager.ISpriteAtlas", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_sprite_atlas.html", null ],
     [ "GameBox.Service.LevelSystem.LevelBuilder", "class_game_box_1_1_service_1_1_level_system_1_1_level_builder.html", null ],
+    [ "GameBox.Service.LevelSystem.LevelSystemInstaller", "class_game_box_1_1_service_1_1_level_system_1_1_level_system_installer.html", null ],
     [ "GameBox.Framework.Logger", "class_game_box_1_1_framework_1_1_logger.html", [
       [ "GameBox.Framework.GlobalLogger", "class_game_box_1_1_framework_1_1_global_logger.html", null ],
       [ "GameBox.Framework.Logger< T >", "class_game_box_1_1_framework_1_1_logger.html", null ]
     ] ],
     [ "GameBox.Framework.Logger< T >", "class_game_box_1_1_framework_1_1_logger.html", null ],
     [ "GameBox.Service.LuaRuntime.LuaBridgeAttribute", "class_game_box_1_1_service_1_1_lua_runtime_1_1_lua_bridge_attribute.html", null ],
+    [ "GameBox.Service.LuaRuntime.ProtocolBuffer.LuaProtocolBufferInstaller", "class_game_box_1_1_service_1_1_lua_runtime_1_1_protocol_buffer_1_1_lua_protocol_buffer_installer.html", null ],
+    [ "GameBox.Service.LuaRuntime.LuaRuntimeInstaller", "class_game_box_1_1_service_1_1_lua_runtime_1_1_lua_runtime_installer.html", null ],
+    [ "GameBox.Service.LuaRuntime.Struct.LuaStructInstaller", "class_game_box_1_1_service_1_1_lua_runtime_1_1_struct_1_1_lua_struct_installer.html", null ],
+    [ "GameBox.Service.NativeChannel.NativeChannelInstaller", "class_game_box_1_1_service_1_1_native_channel_1_1_native_channel_installer.html", null ],
+    [ "GameBox.Service.NetworkManager.NetworkManagerInstaller", "class_game_box_1_1_service_1_1_network_manager_1_1_network_manager_installer.html", null ],
     [ "GameBox.Service.LevelSystem.ObjectEditor", "class_game_box_1_1_service_1_1_level_system_1_1_object_editor.html", [
       [ "GameBox.Service.LevelSystem.ChunkEditor", "class_game_box_1_1_service_1_1_level_system_1_1_chunk_editor.html", null ],
       [ "GameBox.Service.LevelSystem.LevelEditor", "class_game_box_1_1_service_1_1_level_system_1_1_level_editor.html", null ],
       [ "GameBox.Service.LevelSystem.LightModifierEditor", "class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_editor.html", null ],
       [ "GameBox.Service.LevelSystem.PrefabEditor", "class_game_box_1_1_service_1_1_level_system_1_1_prefab_editor.html", null ]
     ] ],
+    [ "GameBox.Service.ObjectPool.ObjectPoolInstaller", "class_game_box_1_1_service_1_1_object_pool_1_1_object_pool_installer.html", null ],
     [ "GameBox.Service.AssetManager.ResourceLoadTask", "class_game_box_1_1_service_1_1_asset_manager_1_1_resource_load_task.html", null ],
     [ "GameBox.Service.GameFramework.Scene", "class_game_box_1_1_service_1_1_game_framework_1_1_scene.html", null ],
     [ "GameBox.Service.LevelSystem.SceneChunkData", "class_game_box_1_1_service_1_1_level_system_1_1_scene_chunk_data.html", null ],
@@ -169,68 +182,13 @@ var hierarchy =
       [ "GameBox.Service.LevelSystem.ScenePrefabData", "class_game_box_1_1_service_1_1_level_system_1_1_scene_prefab_data.html", null ]
     ] ],
     [ "GameBox.Framework.ServiceCenter", "class_game_box_1_1_framework_1_1_service_center.html", null ],
-    [ "GameBox.Framework.ServiceInstaller", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Framework.ServiceInstaller< Service >", "class_game_box_1_1_framework_1_1_service_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IAssetListUpdater >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.AssetUpdater.AssetListUpdaterInstaller", "class_game_box_1_1_service_1_1_asset_updater_1_1_asset_list_updater_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IAssetManager >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.AssetManager.AssetManagerInstaller", "class_game_box_1_1_service_1_1_asset_manager_1_1_asset_manager_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IAssetManagerUpdater >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.AssetManagerUpdater.AssetManagerUpdaterInstaller", "class_game_box_1_1_service_1_1_asset_manager_updater_1_1_asset_manager_updater_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IByteStorage >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.ByteStorage.ByteStorageInstaller", "class_game_box_1_1_service_1_1_byte_storage_1_1_byte_storage_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IClientCollector >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.ClientCollector.ClientCollectorInstaller", "class_game_box_1_1_service_1_1_client_collector_1_1_client_collector_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IGame >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.GameFramework.GameInstaller", "class_game_box_1_1_service_1_1_game_framework_1_1_game_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IGeoQuery >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.GeoQuery.GeoQueryInstaller", "class_game_box_1_1_service_1_1_geo_query_1_1_geo_query_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IGiantFreeServer >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.GiantFreeServer.GiantFreeServerInstaller", "class_game_box_1_1_service_1_1_giant_free_server_1_1_giant_free_server_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IGiantGame >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.GiantLightFramework.GiantLightGameInstaller", "class_game_box_1_1_service_1_1_giant_light_framework_1_1_giant_light_game_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IGiantLightServer >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.GiantLightServer.GiantLightServerInstaller", "class_game_box_1_1_service_1_1_giant_light_server_1_1_giant_light_server_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< ILevelSystem >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.LevelSystem.LevelSystemInstaller", "class_game_box_1_1_service_1_1_level_system_1_1_level_system_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< ILuaProtocolBuffer >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.LuaRuntime.ProtocolBuffer.LuaProtocolBufferInstaller", "class_game_box_1_1_service_1_1_lua_runtime_1_1_protocol_buffer_1_1_lua_protocol_buffer_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< ILuaRuntime >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.LuaRuntime.LuaRuntimeInstaller", "class_game_box_1_1_service_1_1_lua_runtime_1_1_lua_runtime_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< ILuaStruct >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.LuaRuntime.Struct.LuaStructInstaller", "class_game_box_1_1_service_1_1_lua_runtime_1_1_struct_1_1_lua_struct_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< INativeChannel >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.NativeChannel.NativeChannelInstaller", "class_game_box_1_1_service_1_1_native_channel_1_1_native_channel_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< INetworkManager >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.NetworkManager.NetworkManagerInstaller", "class_game_box_1_1_service_1_1_network_manager_1_1_network_manager_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IObjectPool >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.ObjectPool.ObjectPoolInstaller", "class_game_box_1_1_service_1_1_object_pool_1_1_object_pool_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IUISystem >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.UI.UISystemInstaller", "class_game_box_1_1_service_1_1_u_i_1_1_u_i_system_installer.html", null ]
-    ] ],
-    [ "GameBox.Framework.ServiceInstaller< IUIToLua >", "class_game_box_1_1_framework_1_1_service_installer.html", [
-      [ "GameBox.Service.UIToLua.UIToLuaInstaller", "class_game_box_1_1_service_1_1_u_i_to_lua_1_1_u_i_to_lua_installer.html", null ]
-    ] ],
+    [ "GameBox.Framework.ServiceEditor", "class_game_box_1_1_framework_1_1_service_editor.html", null ],
+    [ "GameBox.Framework.ServiceInstaller< Service >", "class_game_box_1_1_framework_1_1_service_installer.html", null ],
+    [ "GameBox.Framework.ServicePlayer", "class_game_box_1_1_framework_1_1_service_player.html", null ],
     [ "GameBox.Framework.ServiceTask", "class_game_box_1_1_framework_1_1_service_task.html", null ],
     [ "GameBox.Framework.StateSet< States >", "class_game_box_1_1_framework_1_1_state_set.html", null ],
     [ "GameBox.Service.GiantFreeServer.stRequestClientIPCmd", "struct_game_box_1_1_service_1_1_giant_free_server_1_1st_request_client_i_p_cmd.html", null ],
+    [ "GameBox.Service.UI.UISystemInstaller", "class_game_box_1_1_service_1_1_u_i_1_1_u_i_system_installer.html", null ],
+    [ "GameBox.Service.UIToLua.UIToLuaInstaller", "class_game_box_1_1_service_1_1_u_i_to_lua_1_1_u_i_to_lua_installer.html", null ],
     [ "GameBox.Framework.Version", "class_game_box_1_1_framework_1_1_version.html", null ]
 ];

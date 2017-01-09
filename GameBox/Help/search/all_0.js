@@ -38,5 +38,5 @@ var searchData=
   ['asynctask',['AsyncTask',['../class_game_box_1_1_framework_1_1_async_task.html',1,'GameBox.Framework.AsyncTask'],['../class_game_box_1_1_framework_1_1_async_task.html#aad1018fb21d03e26f25d04370ec94f16',1,'GameBox.Framework.AsyncTask.AsyncTask()']]],
   ['audioclip',['AUDIOCLIP',['../namespace_game_box_1_1_service_1_1_asset_manager.html#a53ba92642586fd96acc6a44ea02efe12adade8b24ce8d687f48d691c180282f62',1,'GameBox::Service::AssetManager']]],
   ['audiocrossfadetask',['AudioCrossFadeTask',['../class_game_box_1_1_framework_1_1_audio_cross_fade_task.html',1,'GameBox.Framework.AudioCrossFadeTask'],['../class_game_box_1_1_framework_1_1_audio_cross_fade_task.html#a1ea6c3767682d55b696b75690c3830e5',1,'GameBox.Framework.AudioCrossFadeTask.AudioCrossFadeTask()']]],
-  ['awake',['Awake',['../class_game_box_1_1_service_1_1_level_system_1_1_chunk_object.html#a412da88c217af8c9b5186e29b7dab613',1,'GameBox.Service.LevelSystem.ChunkObject.Awake()'],['../class_game_box_1_1_framework_1_1_service_player.html#a80eecaac1201dc7af581c72bfa9ba3e6',1,'GameBox.Framework.ServicePlayer.Awake()']]]
+  ['awake',['Awake',['../class_game_box_1_1_service_1_1_level_system_1_1_chunk_object.html#a412da88c217af8c9b5186e29b7dab613',1,'GameBox::Service::LevelSystem::ChunkObject']]]
 ];

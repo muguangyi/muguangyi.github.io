@@ -53,7 +53,6 @@ var searchData=
   ['iservice',['IService',['../interface_game_box_1_1_framework_1_1_i_service.html',1,'GameBox::Framework']]],
   ['iserviceargs',['IServiceArgs',['../interface_game_box_1_1_framework_1_1_i_service_args.html',1,'GameBox::Framework']]],
   ['iservicegraph',['IServiceGraph',['../interface_game_box_1_1_framework_1_1_i_service_graph.html',1,'GameBox::Framework']]],
-  ['iservicehost',['IServiceHost',['../interface_game_box_1_1_framework_1_1_i_service_host.html',1,'GameBox::Framework']]],
   ['iservicerunner',['IServiceRunner',['../interface_game_box_1_1_framework_1_1_i_service_runner.html',1,'GameBox::Framework']]],
   ['islider',['ISlider',['../interface_game_box_1_1_service_1_1_u_i_1_1_i_slider.html',1,'GameBox::Service::UI']]],
   ['ispriteatlas',['ISpriteAtlas',['../interface_game_box_1_1_service_1_1_asset_manager_1_1_i_sprite_atlas.html',1,'GameBox::Service::AssetManager']]],
