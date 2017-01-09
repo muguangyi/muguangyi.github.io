@@ -1,17 +1,17 @@
 var menudata={children:[
-{text:"首页",url:"index.html"},
-{text:"命名空间",url:"namespaces.html",children:[
-{text:"命名空间列表",url:"namespaces.html"},
-{text:"命名空间成员",url:"namespacemembers.html",children:[
-{text:"全部",url:"namespacemembers.html"},
-{text:"函数",url:"namespacemembers_func.html"},
-{text:"枚举",url:"namespacemembers_enum.html"}]}]},
-{text:"类",url:"annotated.html",children:[
-{text:"类列表",url:"annotated.html"},
-{text:"类索引",url:"classes.html"},
-{text:"类继承关系",url:"hierarchy.html"},
-{text:"类成员",url:"functions.html",children:[
-{text:"全部",url:"functions.html",children:[
+{text:"Main Page",url:"index.html"},
+{text:"Namespaces",url:"namespaces.html",children:[
+{text:"Namespace List",url:"namespaces.html"},
+{text:"Namespace Members",url:"namespacemembers.html",children:[
+{text:"All",url:"namespacemembers.html"},
+{text:"Functions",url:"namespacemembers_func.html"},
+{text:"Enumerations",url:"namespacemembers_enum.html"}]}]},
+{text:"Classes",url:"annotated.html",children:[
+{text:"Class List",url:"annotated.html"},
+{text:"Class Index",url:"classes.html"},
+{text:"Class Hierarchy",url:"hierarchy.html"},
+{text:"Class Members",url:"functions.html",children:[
+{text:"All",url:"functions.html",children:[
 {text:"a",url:"functions.html#index_a"},
 {text:"b",url:"functions_b.html#index_b"},
 {text:"c",url:"functions_c.html#index_c"},
@@ -35,7 +35,7 @@ var menudata={children:[
 {text:"v",url:"functions_v.html#index_v"},
 {text:"w",url:"functions_w.html#index_w"},
 {text:"x",url:"functions_x.html#index_x"}]},
-{text:"函数",url:"functions_func.html",children:[
+{text:"Functions",url:"functions_func.html",children:[
 {text:"a",url:"functions_func.html#index_a"},
 {text:"b",url:"functions_func_b.html#index_b"},
 {text:"c",url:"functions_func_c.html#index_c"},
@@ -58,7 +58,7 @@ var menudata={children:[
 {text:"v",url:"functions_func_v.html#index_v"},
 {text:"w",url:"functions_func_w.html#index_w"},
 {text:"x",url:"functions_func_x.html#index_x"}]},
-{text:"变量",url:"functions_vars.html",children:[
+{text:"Variables",url:"functions_vars.html",children:[
 {text:"a",url:"functions_vars.html#index_a"},
 {text:"b",url:"functions_vars.html#index_b"},
 {text:"c",url:"functions_vars.html#index_c"},
@@ -74,7 +74,7 @@ var menudata={children:[
 {text:"r",url:"functions_vars.html#index_r"},
 {text:"s",url:"functions_vars.html#index_s"},
 {text:"v",url:"functions_vars.html#index_v"}]},
-{text:"属性",url:"functions_prop.html",children:[
+{text:"Properties",url:"functions_prop.html",children:[
 {text:"a",url:"functions_prop.html#index_a"},
 {text:"b",url:"functions_prop.html#index_b"},
 {text:"c",url:"functions_prop.html#index_c"},
@@ -96,4 +96,4 @@ var menudata={children:[
 {text:"u",url:"functions_prop.html#index_u"},
 {text:"v",url:"functions_prop.html#index_v"},
 {text:"w",url:"functions_prop.html#index_w"}]},
-{text:"事件",url:"functions_evnt.html"}]}]}]}
+{text:"Events",url:"functions_evnt.html"}]}]}]}
