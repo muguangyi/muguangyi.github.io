@@ -32,7 +32,6 @@ var searchData=
   ['iluastring',['ILuaString',['../interface_game_box_1_1_service_1_1_lua_runtime_1_1_i_lua_string.html',1,'GameBox::Service::LuaRuntime']]],
   ['iluastruct',['ILuaStruct',['../interface_game_box_1_1_service_1_1_lua_runtime_1_1_struct_1_1_i_lua_struct.html',1,'GameBox::Service::LuaRuntime::Struct']]],
   ['iluatable',['ILuaTable',['../interface_game_box_1_1_service_1_1_lua_runtime_1_1_i_lua_table.html',1,'GameBox::Service::LuaRuntime']]],
-  ['imessage',['IMessage',['../interface_game_box_1_1_service_1_1_giant_free_server_1_1_i_message.html',1,'GameBox::Service::GiantFreeServer']]],
   ['inetworkchannel',['INetworkChannel',['../interface_game_box_1_1_service_1_1_network_manager_1_1_i_network_channel.html',1,'GameBox::Service::NetworkManager']]],
   ['inetworkmanager',['INetworkManager',['../interface_game_box_1_1_service_1_1_network_manager_1_1_i_network_manager.html',1,'GameBox::Service::NetworkManager']]],
   ['instantiatetask',['InstantiateTask',['../class_game_box_1_1_service_1_1_asset_manager_1_1_instantiate_task.html',1,'GameBox::Service::AssetManager']]],

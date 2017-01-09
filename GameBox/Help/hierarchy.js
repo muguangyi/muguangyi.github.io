@@ -106,9 +106,6 @@ var hierarchy =
     [ "GameBox.Service.LuaRuntime.ILuaExecuter", "interface_game_box_1_1_service_1_1_lua_runtime_1_1_i_lua_executer.html", null ],
     [ "GameBox.Service.LuaRuntime.ILuaString", "interface_game_box_1_1_service_1_1_lua_runtime_1_1_i_lua_string.html", null ],
     [ "GameBox.Service.LuaRuntime.ILuaTable", "interface_game_box_1_1_service_1_1_lua_runtime_1_1_i_lua_table.html", null ],
-    [ "GameBox.Service.GiantFreeServer.IMessage", "interface_game_box_1_1_service_1_1_giant_free_server_1_1_i_message.html", [
-      [ "GameBox.Service.GiantFreeServer.Message", "class_game_box_1_1_service_1_1_giant_free_server_1_1_message.html", null ]
-    ] ],
     [ "GameBox.Service.NetworkManager.INetworkChannel", "interface_game_box_1_1_service_1_1_network_manager_1_1_i_network_channel.html", [
       [ "GameBox.Service.NetworkManager.IHttpChannel", "interface_game_box_1_1_service_1_1_network_manager_1_1_i_http_channel.html", [
         [ "GameBox.Service.NetworkManager.HttpChannel", "class_game_box_1_1_service_1_1_network_manager_1_1_http_channel.html", null ]
@@ -173,7 +170,6 @@ var hierarchy =
     [ "GameBox.Framework.ServicePlayer", "class_game_box_1_1_framework_1_1_service_player.html", null ],
     [ "GameBox.Framework.ServiceTask", "class_game_box_1_1_framework_1_1_service_task.html", null ],
     [ "GameBox.Framework.StateSet< States >", "class_game_box_1_1_framework_1_1_state_set.html", null ],
-    [ "GameBox.Service.GiantFreeServer.stRequestClientIPCmd", "struct_game_box_1_1_service_1_1_giant_free_server_1_1st_request_client_i_p_cmd.html", null ],
     [ "GameBox.Service.UI.UISystemInstaller", "class_game_box_1_1_service_1_1_u_i_1_1_u_i_system_installer.html", null ],
     [ "GameBox.Service.UIToLua.UIToLuaInstaller", "class_game_box_1_1_service_1_1_u_i_to_lua_1_1_u_i_to_lua_installer.html", null ],
     [ "GameBox.Framework.Version", "class_game_box_1_1_framework_1_1_version.html", null ]

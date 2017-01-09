@@ -19,7 +19,6 @@ var searchData=
   ['statemachine',['StateMachine',['../class_game_box_1_1_framework_1_1_state_machine.html',1,'GameBox::Framework']]],
   ['stateset',['StateSet',['../class_game_box_1_1_framework_1_1_state_set.html',1,'GameBox::Framework']]],
   ['stateset_3c_20states_20_3e',['StateSet&lt; States &gt;',['../class_game_box_1_1_framework_1_1_state_set.html',1,'GameBox::Framework']]],
-  ['strequestclientipcmd',['stRequestClientIPCmd',['../struct_game_box_1_1_service_1_1_giant_free_server_1_1st_request_client_i_p_cmd.html',1,'GameBox::Service::GiantFreeServer']]],
   ['stringstream',['StringStream',['../class_game_box_1_1_framework_1_1_string_stream.html',1,'GameBox::Framework']]],
   ['stringstreamasyncreader',['StringStreamAsyncReader',['../class_game_box_1_1_framework_1_1_string_stream_async_reader.html',1,'GameBox::Framework']]],
   ['stringstreamreader',['StringStreamReader',['../class_game_box_1_1_framework_1_1_string_stream_reader.html',1,'GameBox::Framework']]],

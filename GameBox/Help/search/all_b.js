@@ -1,7 +1,7 @@
 var searchData=
 [
   ['major',['Major',['../class_game_box_1_1_framework_1_1_version.html#a9e71f275f850cdd04a450d3cf3e84825',1,'GameBox::Framework::Version']]],
-  ['message',['Message',['../class_game_box_1_1_framework_1_1_message.html',1,'GameBox.Framework.Message'],['../class_game_box_1_1_service_1_1_giant_free_server_1_1_message.html',1,'GameBox.Service.GiantFreeServer.Message'],['../class_game_box_1_1_framework_1_1_message.html#a781b2cf445fd44231e9fc48990af01d0',1,'GameBox.Framework.Message.Message()']]],
+  ['message',['Message',['../class_game_box_1_1_framework_1_1_message.html',1,'GameBox.Framework.Message'],['../class_game_box_1_1_framework_1_1_message.html#a781b2cf445fd44231e9fc48990af01d0',1,'GameBox.Framework.Message.Message()']]],
   ['middlelabel',['MiddleLabel',['../class_game_box_1_1_framework_1_1_graph_style.html#ad867b89e521548101b3db2b54ec35f79',1,'GameBox::Framework::GraphStyle']]],
   ['minbytearraysize',['MinByteArraySize',['../class_game_box_1_1_service_1_1_byte_storage_1_1_byte_storage_installer.html#a0f0f32f3770de2820bb2c5bfb5bc8678',1,'GameBox::Service::ByteStorage::ByteStorageInstaller']]],
   ['minilabel',['MiniLabel',['../class_game_box_1_1_framework_1_1_graph_style.html#a5670dc98fc2c7f963e540f74417ad993',1,'GameBox::Framework::GraphStyle']]],

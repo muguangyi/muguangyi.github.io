@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_object.html#aef97ede72a1de650cf7af93dc61bd1c2":[1,0,0,1,6,11,1],
 "class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_object.html#af89e55c02282b05504032c80d1180ec7":[1,0,0,1,6,11,0],
 "class_game_box_1_1_service_1_1_level_system_1_1_object_editor.html":[1,0,0,1,6,12],
 "class_game_box_1_1_service_1_1_level_system_1_1_object_editor.html#a800afdbfe94748150ae586a3963b6477":[1,0,0,1,6,12,1],
@@ -88,8 +87,8 @@ var NAVTREEINDEX1 =
 "class_game_box_1_1_service_1_1_u_i_to_lua_1_1_u_i_to_lua_installer.html":[1,0,0,1,11,1],
 "class_game_box_1_1_service_1_1_u_i_to_lua_1_1_u_i_to_lua_installer.html#aff9bfd769d69a8efbd4735d0aa55cd6d":[1,0,0,1,11,1,0],
 "classes.html":[1,1],
-"functions.html":[1,3,0],
 "functions.html":[1,3,0,0],
+"functions.html":[1,3,0],
 "functions_b.html":[1,3,0,1],
 "functions_c.html":[1,3,0,2],
 "functions_d.html":[1,3,0,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "interface_game_box_1_1_service_1_1_giant_free_server_1_1_i_giant_free_server.html#a366fae686cdf17bef4c7b55b5c554e6c":[1,0,0,1,4,2,0],
 "interface_game_box_1_1_service_1_1_giant_free_server_1_1_i_giant_free_server.html#a71582b9a6db49696e67af4a263b3d5a4":[1,0,0,1,4,2,1],
 "interface_game_box_1_1_service_1_1_giant_free_server_1_1_i_giant_free_server.html#a7e6cdf68d0592b5497b417154634ef75":[1,0,0,1,4,2,2],
-"interface_game_box_1_1_service_1_1_giant_free_server_1_1_i_message.html":[1,0,0,1,4,3]
+"interface_game_box_1_1_service_1_1_giant_light_server_1_1_i_giant_light_client.html":[1,0,0,1,5,1],
+"interface_game_box_1_1_service_1_1_giant_light_server_1_1_i_giant_light_client.html#a2a015e9ca5c66f765765a032f445f307":[1,0,0,1,5,1,2]
 };

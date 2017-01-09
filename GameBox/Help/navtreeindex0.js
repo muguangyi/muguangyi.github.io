@@ -210,7 +210,6 @@ var NAVTREEINDEX0 =
 "class_game_box_1_1_service_1_1_giant_free_server_1_1_giant_free_server_installer.html#a3bb1b1bc2d60418e1974525b6e05b1f8":[1,0,0,1,4,0,2],
 "class_game_box_1_1_service_1_1_giant_free_server_1_1_giant_free_server_installer.html#a75677a4cab77f098ee3d3b0ca2129d40":[1,0,0,1,4,0,1],
 "class_game_box_1_1_service_1_1_giant_free_server_1_1_giant_free_server_installer.html#abef9598e2e1f2dedd411ffcf75f5940c":[1,0,0,1,4,0,0],
-"class_game_box_1_1_service_1_1_giant_free_server_1_1_message.html":[1,0,0,1,4,4],
 "class_game_box_1_1_service_1_1_giant_light_server_1_1_giant_light_server_installer.html":[1,0,0,1,5,0],
 "class_game_box_1_1_service_1_1_giant_light_server_1_1_giant_light_server_installer.html#a9c49856256bf0480c3bb03a01dbfc8fe":[1,0,0,1,5,0,2],
 "class_game_box_1_1_service_1_1_giant_light_server_1_1_giant_light_server_installer.html#acc384ba3ba79fff66bac46b0ffca4da9":[1,0,0,1,5,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_editor.html":[1,0,0,1,6,10],
 "class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_editor.html#aed5af034b112ba0a4a4cdf561dd25de2":[1,0,0,1,6,10,0],
 "class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_object.html":[1,0,0,1,6,11],
-"class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_object.html#a9b54b15f9ef1cb8450d8764267bd42a4":[1,0,0,1,6,11,2]
+"class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_object.html#a9b54b15f9ef1cb8450d8764267bd42a4":[1,0,0,1,6,11,2],
+"class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_object.html#aef97ede72a1de650cf7af93dc61bd1c2":[1,0,0,1,6,11,1]
 };
