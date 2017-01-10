@@ -9,19 +9,10 @@ var hierarchy =
     [ "GameBox.Framework.AsyncCallWithResultTask< GameObject >", "class_game_box_1_1_framework_1_1_async_call_with_result_task.html", [
       [ "GameBox.Service.AssetManager.InstantiateTask", "class_game_box_1_1_service_1_1_asset_manager_1_1_instantiate_task.html", null ]
     ] ],
-    [ "GameBox.Framework.AsyncOperationTask< AssetBundleCreateRequest >", "class_game_box_1_1_framework_1_1_async_operation_task.html", [
-      [ "GameBox.Service.AssetManager.AssetBundleLoadTask", "class_game_box_1_1_service_1_1_asset_manager_1_1_asset_bundle_load_task.html", null ]
-    ] ],
-    [ "GameBox.Framework.AsyncOperationTask< AssetBundleRequest >", "class_game_box_1_1_framework_1_1_async_operation_task.html", [
-      [ "GameBox.Service.AssetManager.AssetLoadFromBundleTask", "class_game_box_1_1_service_1_1_asset_manager_1_1_asset_load_from_bundle_task.html", null ]
-    ] ],
-    [ "GameBox.Framework.AsyncOperationTask< AsyncOperation >", "class_game_box_1_1_framework_1_1_async_operation_task.html", [
-      [ "GameBox.Service.AssetManager.SceneLoadTask", "class_game_box_1_1_service_1_1_asset_manager_1_1_scene_load_task.html", null ]
-    ] ],
-    [ "GameBox.Framework.AsyncOperationTask< ResourceRequest >", "class_game_box_1_1_framework_1_1_async_operation_task.html", [
-      [ "GameBox.Service.AssetManager.ResourceLoadTask< T >", "class_game_box_1_1_service_1_1_asset_manager_1_1_resource_load_task.html", null ],
-      [ "GameBox.Service.AssetManager.ResourceLoadTask< T >", "class_game_box_1_1_service_1_1_asset_manager_1_1_resource_load_task.html", null ]
-    ] ],
+    [ "GameBox.Framework.AsyncOperationTask< AssetBundleCreateRequest >", "class_game_box_1_1_framework_1_1_async_operation_task.html", null ],
+    [ "GameBox.Framework.AsyncOperationTask< AssetBundleRequest >", "class_game_box_1_1_framework_1_1_async_operation_task.html", null ],
+    [ "GameBox.Framework.AsyncOperationTask< AsyncOperation >", "class_game_box_1_1_framework_1_1_async_operation_task.html", null ],
+    [ "GameBox.Framework.AsyncOperationTask< ResourceRequest >", "class_game_box_1_1_framework_1_1_async_operation_task.html", null ],
     [ "GameBox.Service.ByteStorage.ByteConverter", "class_game_box_1_1_service_1_1_byte_storage_1_1_byte_converter.html", null ],
     [ "GameBox.Service.ByteStorage.ByteStorageInstaller", "class_game_box_1_1_service_1_1_byte_storage_1_1_byte_storage_installer.html", null ],
     [ "GameBox.Framework.C0", "class_game_box_1_1_framework_1_1_c0.html", [
@@ -107,9 +98,7 @@ var hierarchy =
     [ "GameBox.Service.LuaRuntime.ILuaString", "interface_game_box_1_1_service_1_1_lua_runtime_1_1_i_lua_string.html", null ],
     [ "GameBox.Service.LuaRuntime.ILuaTable", "interface_game_box_1_1_service_1_1_lua_runtime_1_1_i_lua_table.html", null ],
     [ "GameBox.Service.NetworkManager.INetworkChannel", "interface_game_box_1_1_service_1_1_network_manager_1_1_i_network_channel.html", [
-      [ "GameBox.Service.NetworkManager.IHttpChannel", "interface_game_box_1_1_service_1_1_network_manager_1_1_i_http_channel.html", [
-        [ "GameBox.Service.NetworkManager.HttpChannel", "class_game_box_1_1_service_1_1_network_manager_1_1_http_channel.html", null ]
-      ] ],
+      [ "GameBox.Service.NetworkManager.IHttpChannel", "interface_game_box_1_1_service_1_1_network_manager_1_1_i_http_channel.html", null ],
       [ "GameBox.Service.NetworkManager.ITcpChannel", "interface_game_box_1_1_service_1_1_network_manager_1_1_i_tcp_channel.html", null ],
       [ "GameBox.Service.NetworkManager.IUdpChannel", "interface_game_box_1_1_service_1_1_network_manager_1_1_i_udp_channel.html", null ]
     ] ],
@@ -155,7 +144,6 @@ var hierarchy =
       [ "GameBox.Service.LevelSystem.PrefabEditor", "class_game_box_1_1_service_1_1_level_system_1_1_prefab_editor.html", null ]
     ] ],
     [ "GameBox.Service.ObjectPool.ObjectPoolInstaller", "class_game_box_1_1_service_1_1_object_pool_1_1_object_pool_installer.html", null ],
-    [ "GameBox.Service.AssetManager.ResourceLoadTask", "class_game_box_1_1_service_1_1_asset_manager_1_1_resource_load_task.html", null ],
     [ "GameBox.Service.LevelSystem.SceneChunkData", "class_game_box_1_1_service_1_1_level_system_1_1_scene_chunk_data.html", null ],
     [ "GameBox.Service.LevelSystem.SceneChunkRefData", "class_game_box_1_1_service_1_1_level_system_1_1_scene_chunk_ref_data.html", null ],
     [ "GameBox.Service.LevelSystem.SceneLevelData", "class_game_box_1_1_service_1_1_level_system_1_1_scene_level_data.html", null ],

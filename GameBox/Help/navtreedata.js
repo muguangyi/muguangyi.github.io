@@ -38,8 +38,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_game_box_1_1_service_1_1_level_system_1_1_light_modifier_object.html#af89e55c02282b05504032c80d1180ec7",
-"interface_game_box_1_1_service_1_1_giant_free_server_1_1_i_giant_free_client.html#a0d4620504760c593d7a09a42dcd72b8a"
+"class_game_box_1_1_service_1_1_level_system_1_1_prefab_editor.html",
+"interface_game_box_1_1_service_1_1_giant_light_server_1_1_i_giant_light_client.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

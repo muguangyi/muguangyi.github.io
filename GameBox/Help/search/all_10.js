@@ -10,7 +10,6 @@ var searchData=
   ['scenegroupdata',['SceneGroupData',['../class_game_box_1_1_service_1_1_level_system_1_1_scene_group_data.html',1,'GameBox::Service::LevelSystem']]],
   ['sceneleveldata',['SceneLevelData',['../class_game_box_1_1_service_1_1_level_system_1_1_scene_level_data.html',1,'GameBox::Service::LevelSystem']]],
   ['scenelightmodifierdata',['SceneLightModifierData',['../class_game_box_1_1_service_1_1_level_system_1_1_scene_light_modifier_data.html',1,'GameBox::Service::LevelSystem']]],
-  ['sceneloadtask',['SceneLoadTask',['../class_game_box_1_1_service_1_1_asset_manager_1_1_scene_load_task.html',1,'GameBox::Service::AssetManager']]],
   ['sceneobjectdata',['SceneObjectData',['../class_game_box_1_1_service_1_1_level_system_1_1_scene_object_data.html',1,'GameBox::Service::LevelSystem']]],
   ['sceneobjecttype',['SceneObjectType',['../namespace_game_box_1_1_service_1_1_level_system.html#a5a95fe3549109a21eeee1b153e9e3aa6',1,'GameBox::Service::LevelSystem']]],
   ['sceneprefabdata',['ScenePrefabData',['../class_game_box_1_1_service_1_1_level_system_1_1_scene_prefab_data.html',1,'GameBox::Service::LevelSystem']]],

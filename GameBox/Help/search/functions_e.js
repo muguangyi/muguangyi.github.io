@@ -31,7 +31,7 @@ var searchData=
   ['regluabridgefunction',['RegLuaBridgeFunction',['../interface_game_box_1_1_service_1_1_lua_runtime_1_1_i_lua_runtime.html#a8f3c032f75e31ce7f3dc5bd01e927f14',1,'GameBox::Service::LuaRuntime::ILuaRuntime']]],
   ['release',['Release',['../interface_game_box_1_1_service_1_1_byte_storage_1_1_i_byte_array.html#a60c1c386884014cd47bb90af3b139bdc',1,'GameBox.Service.ByteStorage.IByteArray.Release()'],['../class_game_box_1_1_framework_1_1_c_ref.html#a23b7b35d19beb7e10a7b849aadc0ac71',1,'GameBox.Framework.CRef.Release()']]],
   ['removelistener',['RemoveListener',['../class_game_box_1_1_framework_1_1_dispatcher.html#acb27e865a1ad5b6ab52cf41f3bfd7825',1,'GameBox::Framework::Dispatcher']]],
-  ['request',['Request',['../interface_game_box_1_1_service_1_1_network_manager_1_1_i_http_channel.html#a4f00a390ffc923349d485181f93690cc',1,'GameBox.Service.NetworkManager.IHttpChannel.Request()'],['../class_game_box_1_1_service_1_1_network_manager_1_1_http_channel.html#a18e5d0dfb4351e88352139af0de27434',1,'GameBox.Service.NetworkManager.HttpChannel.Request()']]],
+  ['request',['Request',['../interface_game_box_1_1_service_1_1_network_manager_1_1_i_http_channel.html#a4f00a390ffc923349d485181f93690cc',1,'GameBox::Service::NetworkManager::IHttpChannel']]],
   ['retain',['Retain',['../interface_game_box_1_1_service_1_1_byte_storage_1_1_i_byte_array.html#a2e2980fb4398a7e45045938a4b95a19b',1,'GameBox.Service.ByteStorage.IByteArray.Retain()'],['../class_game_box_1_1_framework_1_1_c_ref.html#ad83942a7d512bee6c238fa457b5e687a',1,'GameBox.Framework.CRef.Retain()']]],
   ['run',['Run',['../interface_game_box_1_1_framework_1_1_i_service.html#a4ec00c740db787f06e8f564a5ca7e1e7',1,'GameBox::Framework::IService']]]
 ];

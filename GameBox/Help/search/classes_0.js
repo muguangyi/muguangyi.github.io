@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['assetbundleloadtask',['AssetBundleLoadTask',['../class_game_box_1_1_service_1_1_asset_manager_1_1_asset_bundle_load_task.html',1,'GameBox::Service::AssetManager']]],
   ['assetinfo',['AssetInfo',['../class_game_box_1_1_service_1_1_asset_manager_1_1_asset_info.html',1,'GameBox::Service::AssetManager']]],
   ['assetlistupdaterinstaller',['AssetListUpdaterInstaller',['../class_game_box_1_1_service_1_1_asset_updater_1_1_asset_list_updater_installer.html',1,'GameBox::Service::AssetUpdater']]],
-  ['assetloadfrombundletask',['AssetLoadFromBundleTask',['../class_game_box_1_1_service_1_1_asset_manager_1_1_asset_load_from_bundle_task.html',1,'GameBox::Service::AssetManager']]],
   ['assetmanagerinfo',['AssetManagerInfo',['../class_game_box_1_1_service_1_1_asset_manager_1_1_asset_manager_info.html',1,'GameBox::Service::AssetManager']]],
   ['assetmanagerinstaller',['AssetManagerInstaller',['../class_game_box_1_1_service_1_1_asset_manager_1_1_asset_manager_installer.html',1,'GameBox::Service::AssetManager']]],
   ['assetmanagerupdaterinstaller',['AssetManagerUpdaterInstaller',['../class_game_box_1_1_service_1_1_asset_manager_updater_1_1_asset_manager_updater_installer.html',1,'GameBox::Service::AssetManagerUpdater']]],
