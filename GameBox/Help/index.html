@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GameBox: Main Page</title>
+<title>GameBox: Gaint GameBox Unity中间件</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -82,10 +82,37 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">GameBox Documentation</div>  </div>
+<div class="title">Gaint <a class="el" href="namespace_game_box.html">GameBox</a> Unity中间件 </div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><h1><a class="anchor" id="intrudction"></a>
+简介</h1>
+<p>巨人GameBox Unity中间件是为Unity开发的基于插件思想的客户端中间件框架，所有的模块都是以DLL形式提供，功能都是以interface对外暴露，在语言层面规范访问的边界。所有的模块都是以Service定义，通过ServiceCenter获取到相应的Service，然后转换成对应的Service接口，就可以直接使用Service对外暴露的各种方法。 </p>
+<h1><a class="anchor" id="getstart"></a>
+快速入门</h1>
+<h2><a class="anchor" id="init"></a>
+初始化</h2>
+<ul>
+<li><code>在Unity项目的Assets目录下创建Editor目录</code> </li>
+<li><code>将GameBox/ServiceCenter</code>.Editor.dll下载放在Editor目录 </li>
+<li><code>切换回Unity，在GameBox菜单中选择ServiceCenter.Editor</code> </li>
+<li><code>在弹出的工具窗口点击“Create”按钮</code> </li>
+<li><code>在更新后的界面勾选需要的组件，并点击“Update”按钮</code> </li>
+</ul>
+<h2><a class="anchor" id="conf"></a>
+配置</h2>
+<ul>
+<li><code>在场景中创建一个GameObject对象</code> </li>
+<li><code>将ServiceCenter下的ServicePlayer组件挂接到该GameObject上</code> </li>
+<li><code>将需要的其余组件依次挂接到该GameObject上即可</code> </li>
+</ul>
+<h2><a class="anchor" id="use"></a>
+使用</h2>
+<h3><a class="anchor" id="getserviceasync"></a>
+异步获取服务</h3>
+<div class="fragment"><div class="line"><span class="comment">// 通过服务接口获取资产管理服务</span></div><div class="line"><span class="keyword">new</span> ServiceTask&lt;IAssetManager&gt;().Start().Continue(task =&gt;</div><div class="line">{</div><div class="line">  var assetManager = task.Result as IAssetManager;</div><div class="line">  <span class="keywordflow">return</span> null;</div><div class="line">});</div></div><!-- fragment --> <div class="fragment"><div class="line"><span class="comment">// 通过服务ID获取资产管理服务</span></div><div class="line"><span class="keyword">new</span> ServiceTask(<span class="stringliteral">&quot;com.giant.serivce.assetmanager&quot;</span>).Start().Continue(task =&gt;</div><div class="line">{</div><div class="line">  var assetManager = task.Result as IAssetManager;</div><div class="line">  <span class="keywordflow">return</span> null;</div><div class="line">});</div></div><!-- fragment --> <h3><a class="anchor" id="getservicesync"></a>
+同步获取服务</h3>
+<p>获取前需确保相关服务已经装载完毕。 </p><div class="fragment"><div class="line"><span class="comment">// 使用ServiceCenter通过服务接口获取资产管理服务</span></div><div class="line">var assetManager = ServiceCenter.GetService&lt;IAssetManager&gt;();</div></div><!-- fragment --> <div class="fragment"><div class="line"><span class="comment">// 使用ServiceCenter通过服务ID获取资产管理服务</span></div><div class="line">var assetManager = ServiceCenter.GetService(<span class="stringliteral">&quot;com.giant.service.assetmanager&quot;</span>) as IAssetManager;</div></div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
