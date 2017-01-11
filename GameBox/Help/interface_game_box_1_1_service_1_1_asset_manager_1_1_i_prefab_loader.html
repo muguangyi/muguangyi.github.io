@@ -95,14 +95,15 @@ $(document).ready(function(){initNavTree('interface_game_box_1_1_service_1_1_ass
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5072221d0af864c77316e3a5a15f4b09"><td class="memItemLeft" align="right" valign="top">UnityEngine.Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_service_1_1_asset_manager_1_1_i_prefab_loader_a5072221d0af864c77316e3a5a15f4b09.html#a5072221d0af864c77316e3a5a15f4b09">Load</a> ()</td></tr>
-<tr class="separator:a5072221d0af864c77316e3a5a15f4b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18811d20124f5f617f2557cf1cd01ec"><td class="memItemLeft" align="right" valign="top">UnityEngine.Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_service_1_1_asset_manager_1_1_i_prefab_loader_ad18811d20124f5f617f2557cf1cd01ec.html#ad18811d20124f5f617f2557cf1cd01ec">Load</a> ()</td></tr>
+<tr class="separator:ad18811d20124f5f617f2557cf1cd01ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_loader"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_loader')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_loader.html">GameBox.Service.AssetManager.IAssetLoader</a></td></tr>
 <tr class="memitem:a23334ae6f0193d1ee4af108a7ea7c2e7 inherit pub_methods_interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_loader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_loader_a23334ae6f0193d1ee4af108a7ea7c2e7.html#a23334ae6f0193d1ee4af108a7ea7c2e7">LoadAsync</a> (Action&lt; object &gt; handler)</td></tr>
 <tr class="separator:a23334ae6f0193d1ee4af108a7ea7c2e7 inherit pub_methods_interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Prefab装载器。</p>
+<dl class="section note"><dt>Note</dt><dd>Prefab加载器并不会维护使用他装载的资源实例化的GameObject的生命周期，使用者创建的GameObject需要在不需要时自己销毁或者用ObjectPool循环使用。</dd></dl>
 <h1><a class="anchor" id="example"></a>
 例子</h1>
 <div class="fragment"><div class="line">var assetManager = ServiceCenter.GetService&lt;IAssetManager&gt;();</div><div class="line">var loader = assetManager.CreateLoader&lt;IPrefabLoader&gt;(<span class="stringliteral">&quot;XXX.prefab&quot;</span>);</div><div class="line">var asset = loader.Load(); <span class="comment">// 同步装载</span></div><div class="line">var go = GameObject.Instantiate(asset) as GameObject;</div><div class="line">...</div><div class="line"><span class="comment">// 销毁</span></div><div class="line">loader.Dispose();</div><div class="line">GameObject.Destroy(go);</div></div><!-- fragment --> </div></div><!-- contents -->

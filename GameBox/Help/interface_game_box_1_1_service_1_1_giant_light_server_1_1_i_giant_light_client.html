@@ -99,7 +99,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2a015e9ca5c66f765765a032f445f307"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div></div><!-- contents -->
+<div class="textblock"><p>客户端需要实现的与IGiantLightServer对接的接口。</p>
+<h1><a class="anchor" id="example"></a>
+例子</h1>
+<div class="fragment"><div class="line"><span class="keyword">class </span>Client : IGiantLightClient</div><div class="line">{</div><div class="line">  <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="interface_game_box_1_1_service_1_1_giant_light_server_1_1_i_giant_light_client_a8734f82f4872838c5de7ade8ae35461a.html#a8734f82f4872838c5de7ade8ae35461a">OnDisconnect</a>()</div><div class="line">  {</div><div class="line">    <span class="comment">// 处理服务器连接丢失</span></div><div class="line">  }</div><div class="line">  </div><div class="line">  <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code" href="interface_game_box_1_1_service_1_1_giant_light_server_1_1_i_giant_light_client_a5aab8a12d7185aba0fb1916cb7ee1c78.html#a5aab8a12d7185aba0fb1916cb7ee1c78">PushRequest</a>(uint <span class="keywordtype">id</span>, <span class="keywordtype">string</span> service, <span class="keywordtype">string</span> method, byte[] content)</div><div class="line">  {</div><div class="line">    <span class="comment">// 处理服务器推送过来的请求，返回true表示已经处理；反之则下一帧还会推送过来</span></div><div class="line">  }</div><div class="line">  </div><div class="line">  <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code" href="interface_game_box_1_1_service_1_1_giant_light_server_1_1_i_giant_light_client_a2a015e9ca5c66f765765a032f445f307.html#a2a015e9ca5c66f765765a032f445f307">PushResponse</a>(uint <span class="keywordtype">id</span>, byte[] content)</div><div class="line">  {</div><div class="line">    <span class="comment">// 处理服务器推送过来的响应，返回true表示已经处理；反之则下一帧还会推送过来</span></div><div class="line">  }</div><div class="line">}</div></div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

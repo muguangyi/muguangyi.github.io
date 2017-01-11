@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['unknown',['UNKNOWN',['../namespace_game_box_1_1_service_1_1_asset_manager_a53ba92642586fd96acc6a44ea02efe12.html#a53ba92642586fd96acc6a44ea02efe12a696b031073e74bf2cb98e5ef201d4aa3',1,'GameBox.Service.AssetManager.UNKNOWN()'],['../namespace_game_box_1_1_service_1_1_level_system_a5a95fe3549109a21eeee1b153e9e3aa6.html#a5a95fe3549109a21eeee1b153e9e3aa6a696b031073e74bf2cb98e5ef201d4aa3',1,'GameBox.Service.LevelSystem.UNKNOWN()']]],
-  ['updated',['UPDATED',['../namespace_game_box_1_1_service_1_1_asset_updater_a7c5dfcf4dc08a0f6fbc94db07882cb09.html#a7c5dfcf4dc08a0f6fbc94db07882cb09ac5d66c61a88f1b214933a91fda1e13f5',1,'GameBox::Service::AssetUpdater']]]
+  ['verbose',['VERBOSE',['../namespace_game_box_1_1_framework_ac24f2325a94e7d7af29d4e818d2e1b7b.html#ac24f2325a94e7d7af29d4e818d2e1b7baec1f06e9fb39c4ef0729b3c7c9c8e8cc',1,'GameBox::Framework']]]
 ];

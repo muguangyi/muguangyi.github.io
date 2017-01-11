@@ -47,8 +47,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_game_box_1_1_service_1_1_byte_storage_1_1_byte_converter_ab2bd780a7ae25a7e53494dd5c842b4c2.html#ab2bd780a7ae25a7e53494dd5c842b4c2",
-"interface_game_box_1_1_service_1_1_asset_manager_1_1_i_audio_clip_loader.html"
+"class_game_box_1_1_service_1_1_byte_storage_1_1_byte_storage_installer_acefc003c1c93ccff60dc8de934c86962.html#acefc003c1c93ccff60dc8de934c86962",
+"interface_game_box_1_1_service_1_1_asset_manager_1_1_i_sprite_atlas.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

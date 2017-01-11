@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['gc',['GC',['../interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_manager.html#abe9af6031aac62807a95d08edaad00d9',1,'GameBox::Service::AssetManager::IAssetManager']]],
+  ['gc',['GC',['../interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_manager_a100fdc403d0170750ea7ac1b86981ffc.html#a100fdc403d0170750ea7ac1b86981ffc',1,'GameBox::Service::AssetManager::IAssetManager']]],
   ['generatekey',['GenerateKey',['../class_game_box_1_1_framework_1_1_table_stream_a4c655547b14f6e9a8ac398916bda603f.html#a4c655547b14f6e9a8ac398916bda603f',1,'GameBox::Framework::TableStream']]],
   ['getargs_3c_20t_20_3e',['GetArgs&lt; T &gt;',['../interface_game_box_1_1_framework_1_1_i_service_runner_a36c65e42ea690892bde9e179b175fe4c.html#a36c65e42ea690892bde9e179b175fe4c',1,'GameBox::Framework::IServiceRunner']]],
   ['getinstance',['GetInstance',['../class_game_box_1_1_framework_1_1_singleton_state_abeb8829ecdb199810df9a8de57acfc49.html#abeb8829ecdb199810df9a8de57acfc49',1,'GameBox::Framework::SingletonState']]],

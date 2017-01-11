@@ -119,7 +119,10 @@ Properties</h2></td></tr>
 <tr class="separator:a3491a53cd933acdaee7123a84df96c85 inherit properties_interface_game_box_1_1_framework_1_1_i_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div></div><!-- contents -->
+<div class="textblock"><p>巨人轻量级服务器服务。封装了巨人的轻量级服务器的集成方案。</p>
+<h1><a class="anchor" id="example"></a>
+例子</h1>
+<div class="fragment"><div class="line"><span class="comment">// 首先实现IGiantLightClient接口</span></div><div class="line"><span class="keyword">class </span>Client : IGiantLightClient</div><div class="line">{</div><div class="line">  ...</div><div class="line">}</div><div class="line"></div><div class="line">var server = ServiceCenter.GetService&lt;IGiantLightServer&gt;();</div><div class="line">server.Connect(<span class="stringliteral">&quot;xx.xx.xx.xx&quot;</span>, 8000, <span class="keyword">new</span> Client());</div><div class="line">...</div><div class="line"></div><div class="line"><span class="comment">// 发送请求</span></div><div class="line">var login = <span class="keyword">new</span> LoginProtoObject(); <span class="comment">// LoginProtoObject是一个protocol-buffers对象</span></div><div class="line">server.SendRequest(0, <span class="stringliteral">&quot;[service]&quot;</span>, <span class="stringliteral">&quot;[method]&quot;</span>, ByteConverter.ProtoBufToBytes&lt;LoginProtoObject&gt;(login));</div><div class="line">...</div><div class="line"></div><div class="line"><span class="comment">// 发送回复</span></div><div class="line">var result = <span class="keyword">new</span> ResultProtoObject();   <span class="comment">// ResultProtoObject是一个protocol-buffers对象</span></div><div class="line">server.SendResponse(0, ByteConverter.ProtoBufToBytes&lt;ResultProtoObject&gt;(result));</div></div><!-- fragment --></div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
