@@ -94,96 +94,19 @@ $(document).ready(function(){initNavTree('interface_game_box_1_1_framework_1_1_i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4ec00c740db787f06e8f564a5ca7e1e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service.html#a4ec00c740db787f06e8f564a5ca7e1e7">Run</a> (<a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner.html">IServiceRunner</a> runner)</td></tr>
+<tr class="memitem:a4ec00c740db787f06e8f564a5ca7e1e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_a4ec00c740db787f06e8f564a5ca7e1e7.html#a4ec00c740db787f06e8f564a5ca7e1e7">Run</a> (<a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner.html">IServiceRunner</a> runner)</td></tr>
 <tr class="separator:a4ec00c740db787f06e8f564a5ca7e1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af974e2b55603148ee745ead5b4b9b2c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service.html#af974e2b55603148ee745ead5b4b9b2c4">Pulse</a> (float delta)</td></tr>
+<tr class="memitem:af974e2b55603148ee745ead5b4b9b2c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_af974e2b55603148ee745ead5b4b9b2c4.html#af974e2b55603148ee745ead5b4b9b2c4">Pulse</a> (float delta)</td></tr>
 <tr class="separator:af974e2b55603148ee745ead5b4b9b2c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a3491a53cd933acdaee7123a84df96c85"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service.html#a3491a53cd933acdaee7123a84df96c85">Id</a><code> [get]</code></td></tr>
+<tr class="memitem:a3491a53cd933acdaee7123a84df96c85"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_a3491a53cd933acdaee7123a84df96c85.html#a3491a53cd933acdaee7123a84df96c85">Id</a><code> [get]</code></td></tr>
 <tr class="separator:a3491a53cd933acdaee7123a84df96c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4ec00c740db787f06e8f564a5ca7e1e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ec00c740db787f06e8f564a5ca7e1e7">&#9670;&nbsp;</a></span>Run()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameBox.Framework.IService.Run </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner.html">IServiceRunner</a>&#160;</td>
-          <td class="paramname"><em>runner</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Run是服务启动入口，ServiceCenter启动一个Service时，会调用该方法，从而给每一个Service初始化的机会。 在这个函数中，Service需要执行其内部的初始化过程，当完成后必须要调用IServiceRunner的Ready方法来通知 ServiceCenter，否则其他服务和外部程序是无法获取到这个服务的。 </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">runner</td><td>执行Service运行的运行器</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="af974e2b55603148ee745ead5b4b9b2c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af974e2b55603148ee745ead5b4b9b2c4">&#9670;&nbsp;</a></span>Pulse()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameBox.Framework.IService.Pulse </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>delta</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>如果Service需要在每一帧执行一些逻辑，则需要添加到该函数中。 </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">delta</td><td>帧间隔，单位为秒</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Property Documentation</h2>
-<a id="a3491a53cd933acdaee7123a84df96c85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3491a53cd933acdaee7123a84df96c85">&#9670;&nbsp;</a></span>Id</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">string GameBox.Framework.IService.Id</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Id是唯一标示一个Service的标识符，调用者通过这个Id可以查询到自己需要的Service实例，从而使用Service。 Id的命名规则为com.giant.service.[<a class="el" href="namespace_game_box_1_1_service.html">Service</a> Name]，例如com.giant.service.AService。 </p>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"><p>IService是每一个子Service需要实现的接口。 </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

@@ -94,116 +94,21 @@ $(document).ready(function(){initNavTree('interface_game_box_1_1_framework_1_1_i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a42245c714ad0c8389e70501a67e3fa47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner.html#a42245c714ad0c8389e70501a67e3fa47">Ready</a> (Action terminateMethod)</td></tr>
+<tr class="memitem:a42245c714ad0c8389e70501a67e3fa47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner_a42245c714ad0c8389e70501a67e3fa47.html#a42245c714ad0c8389e70501a67e3fa47">Ready</a> (Action terminateMethod)</td></tr>
 <tr class="separator:a42245c714ad0c8389e70501a67e3fa47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdcead46929a650e3d7da42cd00cf7bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner.html#abdcead46929a650e3d7da42cd00cf7bd">Shutdown</a> ()</td></tr>
+<tr class="memitem:abdcead46929a650e3d7da42cd00cf7bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner_abdcead46929a650e3d7da42cd00cf7bd.html#abdcead46929a650e3d7da42cd00cf7bd">Shutdown</a> ()</td></tr>
 <tr class="separator:abdcead46929a650e3d7da42cd00cf7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36c65e42ea690892bde9e179b175fe4c"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner.html#a36c65e42ea690892bde9e179b175fe4c">GetArgs&lt; T &gt;</a> (string key)</td></tr>
+<tr class="memitem:a36c65e42ea690892bde9e179b175fe4c"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner_a36c65e42ea690892bde9e179b175fe4c.html#a36c65e42ea690892bde9e179b175fe4c">GetArgs&lt; T &gt;</a> (string key)</td></tr>
 <tr class="separator:a36c65e42ea690892bde9e179b175fe4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:a71a8a440d998bfc56b042ad364b7d29b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game_box_1_1_framework.html#a14b4f9d7b141c098b364cd37eb40b09a">ServiceShutdown</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner.html#a71a8a440d998bfc56b042ad364b7d29b">OnShutdown</a></td></tr>
+<tr class="memitem:a71a8a440d998bfc56b042ad364b7d29b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_game_box_1_1_framework_a14b4f9d7b141c098b364cd37eb40b09a.html#a14b4f9d7b141c098b364cd37eb40b09a">ServiceShutdown</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_game_box_1_1_framework_1_1_i_service_runner_a71a8a440d998bfc56b042ad364b7d29b.html#a71a8a440d998bfc56b042ad364b7d29b">OnShutdown</a></td></tr>
 <tr class="separator:a71a8a440d998bfc56b042ad364b7d29b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a42245c714ad0c8389e70501a67e3fa47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42245c714ad0c8389e70501a67e3fa47">&#9670;&nbsp;</a></span>Ready()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameBox.Framework.IServiceRunner.Ready </td>
-          <td>(</td>
-          <td class="paramtype">Action&#160;</td>
-          <td class="paramname"><em>terminateMethod</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>当一个Service准备完毕时，需要调用这个方法通知ServiceRunner已经可以提供服务，否则其中运行的Service 永远处于等待状态。 </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">terminateMethod</td><td>Service终止方法，当Service触发Runner的Shutdown方法后，Runner会调用对应的TerminateMethod来让Service清理资源。</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="abdcead46929a650e3d7da42cd00cf7bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdcead46929a650e3d7da42cd00cf7bd">&#9670;&nbsp;</a></span>Shutdown()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameBox.Framework.IServiceRunner.Shutdown </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>当服务需要关闭时，需要调用运行Service的ServiceRunner来终止服务。 </p>
-
-</div>
-</div>
-<a id="a36c65e42ea690892bde9e179b175fe4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36c65e42ea690892bde9e179b175fe4c">&#9670;&nbsp;</a></span>GetArgs< T >()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">T GameBox.Framework.IServiceRunner.GetArgs&lt; T &gt; </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>获取服务参数。 </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">key</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Event Documentation</h2>
-<a id="a71a8a440d998bfc56b042ad364b7d29b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71a8a440d998bfc56b042ad364b7d29b">&#9670;&nbsp;</a></span>OnShutdown</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_game_box_1_1_framework.html#a14b4f9d7b141c098b364cd37eb40b09a">ServiceShutdown</a> GameBox.Framework.IServiceRunner.OnShutdown</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Service终止的事件，通过监听这个事件可以获取所有即将终止的Service的消息。 </p>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"><p>IServiceRunner是Service的运行沙盒，用来隔离每一个Service，并控制Service的生命周期。 </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

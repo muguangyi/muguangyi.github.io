@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['enablelog',['EnableLog',['../class_game_box_1_1_framework_1_1_service_installer.html#a53ce4b2a5fa0e01d0424f9c7898062f2',1,'GameBox::Framework::ServiceInstaller']]]
+  ['enablelog',['EnableLog',['../class_game_box_1_1_framework_1_1_service_installer_a71ecd070d63ded9a90b00bba78da0255.html#a71ecd070d63ded9a90b00bba78da0255',1,'GameBox::Framework::ServiceInstaller']]]
 ];

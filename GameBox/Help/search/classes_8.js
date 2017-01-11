@@ -34,7 +34,6 @@ var searchData=
   ['iluatable',['ILuaTable',['../interface_game_box_1_1_service_1_1_lua_runtime_1_1_i_lua_table.html',1,'GameBox::Service::LuaRuntime']]],
   ['inetworkchannel',['INetworkChannel',['../interface_game_box_1_1_service_1_1_network_manager_1_1_i_network_channel.html',1,'GameBox::Service::NetworkManager']]],
   ['inetworkmanager',['INetworkManager',['../interface_game_box_1_1_service_1_1_network_manager_1_1_i_network_manager.html',1,'GameBox::Service::NetworkManager']]],
-  ['instantiatetask',['InstantiateTask',['../class_game_box_1_1_service_1_1_asset_manager_1_1_instantiate_task.html',1,'GameBox::Service::AssetManager']]],
   ['iobjectpool',['IObjectPool',['../interface_game_box_1_1_service_1_1_object_pool_1_1_i_object_pool.html',1,'GameBox::Service::ObjectPool']]],
   ['iprefabloader',['IPrefabLoader',['../interface_game_box_1_1_service_1_1_asset_manager_1_1_i_prefab_loader.html',1,'GameBox::Service::AssetManager']]],
   ['irecyclefactory',['IRecycleFactory',['../interface_game_box_1_1_service_1_1_object_pool_1_1_i_recycle_factory.html',1,'GameBox::Service::ObjectPool']]],

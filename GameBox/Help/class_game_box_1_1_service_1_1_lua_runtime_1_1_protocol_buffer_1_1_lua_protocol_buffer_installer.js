@@ -1,4 +1,4 @@
 var class_game_box_1_1_service_1_1_lua_runtime_1_1_protocol_buffer_1_1_lua_protocol_buffer_installer =
 [
-    [ "Create", "class_game_box_1_1_service_1_1_lua_runtime_1_1_protocol_buffer_1_1_lua_protocol_buffer_installer.html#ac8d1a0275ce07b8d706135cc6888734b", null ]
+    [ "Create", "class_game_box_1_1_service_1_1_lua_runtime_1_1_protocol_buffer_1_1_lua_protocol_buffer_installer_ac8d1a0275ce07b8d706135cc6888734b.html#ac8d1a0275ce07b8d706135cc6888734b", null ]
 ];

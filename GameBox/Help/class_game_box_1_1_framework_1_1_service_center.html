@@ -91,120 +91,23 @@ $(document).ready(function(){initNavTree('class_game_box_1_1_framework_1_1_servi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a279b66de5436e26cf0a9525d4ee718aa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_service_center.html#a279b66de5436e26cf0a9525d4ee718aa">Launch</a> ()</td></tr>
+<tr class="memitem:a279b66de5436e26cf0a9525d4ee718aa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_service_center_a279b66de5436e26cf0a9525d4ee718aa.html#a279b66de5436e26cf0a9525d4ee718aa">Launch</a> ()</td></tr>
 <tr class="separator:a279b66de5436e26cf0a9525d4ee718aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8dbb0032f7914c026ef434cd667d189"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interface_game_box_1_1_framework_1_1_i_service.html">IService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_service_center.html#ac8dbb0032f7914c026ef434cd667d189">GetService</a> (string id)</td></tr>
+<tr class="memitem:ac8dbb0032f7914c026ef434cd667d189"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interface_game_box_1_1_framework_1_1_i_service.html">IService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_service_center_ac8dbb0032f7914c026ef434cd667d189.html#ac8dbb0032f7914c026ef434cd667d189">GetService</a> (string id)</td></tr>
 <tr class="separator:ac8dbb0032f7914c026ef434cd667d189"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a541c1dbdb194b1c5106e09d917351607"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_service_center.html#a541c1dbdb194b1c5106e09d917351607">GetService&lt; T &gt;</a> ()</td></tr>
+<tr class="memitem:a541c1dbdb194b1c5106e09d917351607"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_box_1_1_framework_1_1_service_center_a541c1dbdb194b1c5106e09d917351607.html#a541c1dbdb194b1c5106e09d917351607">GetService&lt; T &gt;</a> ()</td></tr>
 <tr class="separator:a541c1dbdb194b1c5106e09d917351607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><ol type="1">
-<li>在游戏运行前确保所有依赖的服务都已经装载，然后在之后通过ServiceCenter直接同步获取需要的服务接口。<br />
-</li>
-<li>每次使用一个服务时，都通过异步的方式先确保服务已经运行，然后再使用。<br />
- </li>
-</ol>
-<p>第一种方式：先确保服务已经运行，再使用服务。</p>
-<div class="fragment"><div class="line"><span class="comment">// 首先在游戏装载阶段确保所有服务已经装载，例如游戏依赖资源管理和网络管理服务。</span></div><div class="line"><span class="keyword">new</span> ServicesTask(<span class="keyword">new</span> <span class="keywordtype">string</span>[] {</div><div class="line">    <span class="stringliteral">&quot;com.giant.service.assetmanager&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;com.giant.service.networkmanager&quot;</span></div><div class="line">})</div><div class="line">.Start()</div><div class="line">.Continue(task =&gt;</div><div class="line">{</div><div class="line">    <span class="comment">// 需要的服务已经准备就绪。</span></div><div class="line">    <span class="keywordflow">return</span> null;</div><div class="line">});</div><div class="line"></div><div class="line"><span class="comment">// 然后就可以在之后使用ServiceCenter直接获取需要的服务接口。</span></div><div class="line">var assetManager = ServiceCenter&lt;IAssetManager&gt;.GetService();</div><div class="line">...</div></div><!-- fragment --> <p>第二种方式：异步获取服务，然后使用。</p>
-<div class="fragment"><div class="line"><span class="keyword">new</span> ServiceTask&lt;IAssetManager&gt;().Start().Continue(task =&gt;</div><div class="line">{</div><div class="line">    var assetManager = task.Result as IAssetManager;</div><div class="line">    ...</div><div class="line">    <span class="keywordflow">return</span> null;</div><div class="line">});</div></div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a279b66de5436e26cf0a9525d4ee718aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a279b66de5436e26cf0a9525d4ee718aa">&#9670;&nbsp;</a></span>Launch()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void GameBox.Framework.ServiceCenter.Launch </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>通知ServiceCenter进入游戏，ServiceCenter关闭SplashColor。 </p>
-
-</div>
-</div>
-<a id="ac8dbb0032f7914c026ef434cd667d189"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8dbb0032f7914c026ef434cd667d189">&#9670;&nbsp;</a></span>GetService()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="interface_game_box_1_1_framework_1_1_i_service.html">IService</a> GameBox.Framework.ServiceCenter.GetService </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>根据Service的Id获取Service实例接口。 </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">id</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="a541c1dbdb194b1c5106e09d917351607"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a541c1dbdb194b1c5106e09d917351607">&#9670;&nbsp;</a></span>GetService< T >()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static T <a class="el" href="class_game_box_1_1_framework_1_1_service_center.html#ac8dbb0032f7914c026ef434cd667d189">GameBox.Framework.ServiceCenter.GetService</a>&lt; T &gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>根据Service类型获取Service实例接口。 </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"><p>ServiceCenter是所有服务的运行载体。它承载所有Service的初始化，运行和终止。<br />
+ServiceCenter提供了获取指定Service的同步方法：<br />
+</p><ul>
+<li><code>在获取服务前确保所有依赖的服务都已经装载</code> </li>
+<li><code>通过ServiceCenter直接同步获取需要的服务接口。</code> </li>
+</ul>
+<h1><a class="anchor" id="example"></a>
+例子</h1>
+<div class="fragment"><div class="line">var assetManager = ServiceCenter.GetService&lt;IAssetManager&gt;();</div></div><!-- fragment --><div class="fragment"><div class="line">var assetManager = ServiceCenter.GetService(<span class="stringliteral">&quot;com.giant.service.assetmanager&quot;</span>) as IAssetManager;</div></div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

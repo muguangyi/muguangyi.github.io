@@ -10,7 +10,6 @@ var namespace_game_box_1_1_service_1_1_asset_manager =
     [ "IAssetPackLoader", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_pack_loader.html", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_asset_pack_loader" ],
     [ "IAudioClipLoader", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_audio_clip_loader.html", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_audio_clip_loader" ],
     [ "IBytesLoader", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_bytes_loader.html", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_bytes_loader" ],
-    [ "InstantiateTask", "class_game_box_1_1_service_1_1_asset_manager_1_1_instantiate_task.html", null ],
     [ "IPrefabLoader", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_prefab_loader.html", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_prefab_loader" ],
     [ "ISceneLoader", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_scene_loader.html", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_scene_loader" ],
     [ "ISpriteAtlas", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_sprite_atlas.html", "interface_game_box_1_1_service_1_1_asset_manager_1_1_i_sprite_atlas" ],

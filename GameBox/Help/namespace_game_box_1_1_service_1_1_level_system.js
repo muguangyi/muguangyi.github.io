@@ -1,12 +1,12 @@
 var namespace_game_box_1_1_service_1_1_level_system =
 [
-    [ "ChunkBuilder", "class_game_box_1_1_service_1_1_level_system_1_1_chunk_builder.html", null ],
+    [ "ChunkBuilder", "class_game_box_1_1_service_1_1_level_system_1_1_chunk_builder.html", "class_game_box_1_1_service_1_1_level_system_1_1_chunk_builder" ],
     [ "ChunkEditor", "class_game_box_1_1_service_1_1_level_system_1_1_chunk_editor.html", "class_game_box_1_1_service_1_1_level_system_1_1_chunk_editor" ],
     [ "ChunkObject", "class_game_box_1_1_service_1_1_level_system_1_1_chunk_object.html", "class_game_box_1_1_service_1_1_level_system_1_1_chunk_object" ],
     [ "EditorObject", "class_game_box_1_1_service_1_1_level_system_1_1_editor_object.html", "class_game_box_1_1_service_1_1_level_system_1_1_editor_object" ],
     [ "ILevelSystem", "interface_game_box_1_1_service_1_1_level_system_1_1_i_level_system.html", "interface_game_box_1_1_service_1_1_level_system_1_1_i_level_system" ],
     [ "ISceneCharacter", "interface_game_box_1_1_service_1_1_level_system_1_1_i_scene_character.html", "interface_game_box_1_1_service_1_1_level_system_1_1_i_scene_character" ],
-    [ "LevelBuilder", "class_game_box_1_1_service_1_1_level_system_1_1_level_builder.html", null ],
+    [ "LevelBuilder", "class_game_box_1_1_service_1_1_level_system_1_1_level_builder.html", "class_game_box_1_1_service_1_1_level_system_1_1_level_builder" ],
     [ "LevelEditor", "class_game_box_1_1_service_1_1_level_system_1_1_level_editor.html", "class_game_box_1_1_service_1_1_level_system_1_1_level_editor" ],
     [ "LevelObject", "class_game_box_1_1_service_1_1_level_system_1_1_level_object.html", "class_game_box_1_1_service_1_1_level_system_1_1_level_object" ],
     [ "LevelSystemInstaller", "class_game_box_1_1_service_1_1_level_system_1_1_level_system_installer.html", "class_game_box_1_1_service_1_1_level_system_1_1_level_system_installer" ],
