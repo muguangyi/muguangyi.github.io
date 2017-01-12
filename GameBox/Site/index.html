@@ -105,13 +105,15 @@
                 <table class="code-example" cellpadding="0">
                     <tr>
                         <td>
-                            <pre class="less-example">
-                            <code>// 获取资产服务接口
-                            new ServiceTask&lt;IAssetManager&lg;().Start().Continue(task =>
-                            {
-                                var assetManager = task.Result as IAssetManager;
-                                return null;
-                            });</code></pre>
+<pre class="less-example">
+<code>
+// 获取资产服务接口
+new ServiceTask&lt;IAssetManager&lg;().Start().Continue(task =>
+{
+    var assetManager = task.Result as IAssetManager;
+    return null;
+});
+</code></pre>
                         </td>
                     </tr>
                 </table>
