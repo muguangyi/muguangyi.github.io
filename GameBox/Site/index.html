@@ -98,8 +98,10 @@
             <div class="content">
                 <h2>快速入门</h2>
                 <p>当你所需要的各种服务已经在Unity中设置完毕，只需在代码中获取需要的服务接口，然后就可以直接使用接口提供的各种功能了。</p>
-                <li>确保所依赖的服务已经准备完毕</li>
-                <li>获取对应的服务接口</li>
+                <ul>
+                    <li>确保所依赖的服务已经准备完毕</li>
+                    <li>获取对应的服务接口</li>
+                </ul>
                 
                 <h5>异步获取服务接口</h5>
                 <table class="code-example" cellpadding="0">
@@ -107,7 +109,7 @@
                         <td>
 <pre class="less-example">
 <code>// 获取资产服务接口
-new ServiceTask&lt;IAssetManager&lg;().Start().Continue(task =>
+new ServiceTask&lt;IAssetManager&gt;().Start().Continue(task =>
 {
     var assetManager = task.Result as IAssetManager;
     return null;
