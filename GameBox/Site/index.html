@@ -104,6 +104,7 @@
                 </ul>
                 
                 <h3>异步获取服务接口</h3>
+                <p>使用ServiceTask。</p>
                 <table class="code-example" cellpadding="0">
                     <tr>
                         <td>
@@ -131,7 +132,30 @@ new ServiceTask("com.giant.service.assetmanager").Start().Continue(task =>
                     </tr>
                 </table>
 
+                <h3>异步获取多个服务接口</h3>
+                <p>一次获取多个服务接口只能通过服务ID的集合请求，使用ServicesTask。</p>
+                <table class="code-example" cellpadding="0">
+                    <tr>
+                        <td>
+<pre class="less-example">
+<code>// 通过多个服务的ID获取资产服务接口，返回的IService[]顺序依照ID顺序
+new ServicesTask(new string[] {
+    "com.giant.service.assetmanager",
+    "com.giant.service.networkmanager",
+}).Start().Continue(task =>
+{
+    var services = task.Result as IService[];
+    var assetManager = services[0] as IAssetManager;
+    var networkManager = service[1] as INetworkManager;
+    return null;
+});
+</code></pre>
+                        </td>
+                    </tr>
+                </table>                
+
                 <h3>同步获取服务接口</h3>
+                <p>同步只能一次获得一个服务接口。</p>
                 <table class="code-example" cellpadding="0">
                     <tr>
                         <td>
