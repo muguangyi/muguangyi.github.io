@@ -108,8 +108,18 @@
                     <tr>
                         <td>
 <pre class="less-example">
-<code>// 获取资产服务接口
+<code>// 通过服务类型获取资产服务接口
 new ServiceTask&lt;IAssetManager&gt;().Start().Continue(task =>
+{
+    var assetManager = task.Result as IAssetManager;
+    return null;
+});
+</code></pre>
+                        </td>
+                        <td>
+<pre class="less-example">
+<code>// 通过服务ID获取资产服务接口
+new ServiceTask("com.giant.service.assetmanager").Start().Continue(task =>
 {
     var assetManager = task.Result as IAssetManager;
     return null;
