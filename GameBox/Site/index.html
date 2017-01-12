@@ -130,6 +130,26 @@ new ServiceTask("com.giant.service.assetmanager").Start().Continue(task =>
                         </td>
                     </tr>
                 </table>
+
+                <h3>同步获取服务接口</h3>
+                <table class="code-example" cellpadding="0">
+                    <tr>
+                        <td>
+<pre class="less-example">
+<code>// 通过服务类型获取资产服务接口
+var assetManager = ServiceCenter.GetService&lt;IAssetManager&gt;();
+</code></pre>
+                        </td>
+                    <tr>
+                    <tr>
+                        <td>
+<pre class="less-example">
+<code>// 通过服务ID获取资产服务接口
+var assetManager = ServiceCenter.GetService("com.giant.service.assetmanager");
+</code></pre>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </section>
 
