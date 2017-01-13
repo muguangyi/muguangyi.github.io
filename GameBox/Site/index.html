@@ -52,8 +52,9 @@
 
                 sections['docs'] = document.getElementById('docs');
                 sections['guide'] = document.getElementById('guide');
+                sections['help'] = document.getElementById('help');
                 sections['about'] = document.getElementById('about');
-                toggle(null);
+                toggle('about');
             };
 
             function scrollTop() {
@@ -94,7 +95,7 @@
                 <nav>
                     <a href="#docs" onclick="toggle('docs')">快速接入</a>
                     <a href="#guide" onclick="toggle('guide')">使用</a>
-                    <a href="./help/index.html">API文档</a>
+                    <a href="#help" onclick="toggle('help')">API文档</a>
                     <a href="#about" onclick="toggle('about')">技术支持</a>
                 </nav>
             </div>
@@ -102,7 +103,6 @@
 
         <section id="docs" class="page">
             <div class="content">
-                <h2>快速接入</h2>
                 <table class="code-example" cellpadding="0">
                     <tr>
                         <td><pre><code>第一步：下载</code></pre>
@@ -145,7 +145,6 @@
 
         <section id="guide" class="page">
             <div class="content">
-                <h2>使用</h2>
                 <p>当你所需要的各种服务已经在Unity中设置完毕，只需在代码中获取需要的服务接口，然后就可以直接使用接口提供的各种功能了。</p>
                 <ul>
                     <li>确保所依赖的服务已经准备完毕</li>
@@ -226,10 +225,14 @@ var assetManager = ServiceCenter.GetService("com.giant.service.assetmanager");
             </div>
         </section>
 
+        <section id="help" class="page">
+            <div class="content">
+                <pre><code><iframe src="./help/index.html" width="830px" height="800px" style="border: 0px"></iframe></code></pre>
+            </div>
+        </section>
+
         <section id="about" class="page">
             <div class="content">
-                <h1>技术支持</h1>
-
                 <p>技术部@巨人网络</p>
 
                 <footer>
