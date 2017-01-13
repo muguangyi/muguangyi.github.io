@@ -1,7 +1,7 @@
 $(function(){
 
 var sitenavbar = "<div id=\"site-navbar\" style=\"position: absolute; top: -4px; left: -3px; border: 0; z-index: 2000;padding:0;margin:0;\">" +
-			"<a href=\"/GameBox/Site/index.html\" title=\"返回首页\" style=\"background:none;\">" +
+			"<a href=\"/GameBox/\" title=\"返回首页\" style=\"background:none;\">" +
 				"<img src=\"./p/return-back.png\" style=\"padding:0;margin:0;border:0; -webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;\">"+
 			"</a>"+
 		"</div>";
@@ -17,3 +17,14 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 //全局统计代码
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F079fac161efc4b2a6f31e80064f14e82' type='text/javascript'%3E%3C/script%3E"));
+
+var sections = {};
+function toggle(section) {
+    for (var id in sections) {
+        if (id === section) {
+            sections[id].style.display = 'block';
+        } else {
+            sections[id].style.display = 'none';
+        }
+    }
+}
