@@ -24,6 +24,7 @@ header .box{padding:0.1rem 0.2rem;height:0.8rem;}
 .title{margin-left:0.15rem;height:0.8rem;}
 .title .ti{font-size:0.28rem;color:#fff;font-weight:bold;line-height:0.4rem;}
 .title .tx{font-size:0.2rem;color:#fff;line-height: 0.3rem;}
+.title .tv{font-size:0.1rem;color:#fff;line-height: 0.2rem;}
 .dlBtn{width:1.81rem;height: 0.54rem;background:url('../images/downloadBtn.png') no-repeat 0 0 / 100% 100%;margin-top: 0.13rem;text-indent:-1000px;overflow: hidden;}
 
 .column{width:100%;position: relative;overflow: hidden;}
