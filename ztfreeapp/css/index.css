@@ -19,7 +19,7 @@ body{width:100%;font:normal 0.24rem/1.5 "Microsoft YaHei","Î¢ÈíÑÅºÚ"; color:#fff
 /******* Ê×Ò³ *******/
 
 header{position:absolute;top:0px;left:0;z-index:10;background-color:#093f8c;width:100%;}
-header .box{padding:0.1rem 0.2rem;height:0.8rem;}
+header .box{padding:0.1rem 0.2rem;height:1.0rem;}
 .logos{width:0.8rem;height:0.8rem;background:url('../images/logos.png') no-repeat 0 0 / 100% 100%;}
 .title{margin-left:0.15rem;height:0.8rem;}
 .title .ti{font-size:0.28rem;color:#fff;font-weight:bold;line-height:0.4rem;}
