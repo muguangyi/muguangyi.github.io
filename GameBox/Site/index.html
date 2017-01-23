@@ -52,6 +52,7 @@
 
                 sections['docs'] = document.getElementById('docs');
                 sections['guide'] = document.getElementById('guide');
+                sections['debug'] = document.getElementById('debug');
                 sections['help'] = document.getElementById('help');
                 sections['about'] = document.getElementById('about');
                 toggle('about');
@@ -83,8 +84,8 @@
                     <pre><code>没有代码，只有DLL</code></pre>
                     <pre><code>资源管理，热更新，网络通信，UI……只要勾选即可！</code></pre>
                     <pre><code>只安装我需要的模块，没有冗余</code></pre>
-                    <pre><code>拖拽就可以完成模块初始化</code></pre>
                     <pre><code>一键就可以更新最新的模块</code></pre>
+                    <pre><code>远程Debug</code></pre>
                 </section>
             </div>
             <div style="clear: both"></div>
@@ -95,6 +96,7 @@
                 <nav>
                     <a href="#docs" onclick="toggle('docs')">快速接入</a>
                     <a href="#guide" onclick="toggle('guide')">使用</a>
+                    <a href="#debug" onclick="toggle('debug')">远程Debug</a>
                     <a href="#help" onclick="toggle('help')">API文档</a>
                     <a href="#about" onclick="toggle('about')">技术支持</a>
                 </nav>
@@ -222,6 +224,30 @@ var assetManager = ServiceCenter.GetService("com.giant.service.assetmanager");
                         </td>
                     </tr>
                 </table>
+            </div>
+        </section>
+
+        <section id="debug" class="page">
+            <div class="content">
+                <h3>代码中启动远程Debug</h3>
+                <p>远程Debug功能只依赖于ServicePlayer，但必须要使用GameBox提供的Log函数，GlobalLogger或Logger&lt;&gt;。</p>
+                <section id="example">
+                    <pre><code>// 使用可用的端口启动远程Debug功能，例如55000
+ServiceCenter.RemoteDebug(55000);</code></pre>
+                </section>
+
+                <h3>获取设备的IP和端口</h3>
+                <section id="example">
+                    <pre><code>内网WIFI下，手机可以查看WIFI设置获取IP地址</code></pre>
+                    <img src="./img/wifi.png">
+                    <pre><code>外网4G下，手机可以用工具查看4G的公网IP地址</code></pre>
+                </section>
+
+                <h3>浏览器查看实时日志</h3>
+                <p>例如：http://192.168.251.111:55000</p>
+                <section id="example">
+                    <pr><code><img src="./img/browser.png"></code></pr>
+                </section>
             </div>
         </section>
 
