@@ -323,14 +323,14 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
 {
     protected override IService Create()
     {
-        return new MyService();
+        return new MyService(); // 实例化具体的Service对象
     }
 }                
                 </code></pre>
 
                 <h3>使用</h3>
-                <li>将项目编译的DLL放在Unity项目中</li>
-                <li>将DLL暴露的MyServiceInstaller挂在ServicePlayer所在的GameObject上</li>
+                <li>编译项目，将生成的DLL放在Unity项目中</li>
+                <li>在Unity中展开DLL，将暴露的MyServiceInstaller挂在ServicePlayer所在的GameObject上</li>
                 <li>通过同步或异步的方式获取IMyService接口</li>
                 <pre><code>ServiceCenter.GetService&lt;IMyService&gt;();</code></pre>
                 <pre><code>ServiceCenter.GetService("com.giant.service.myservice");</code></pre>
@@ -344,6 +344,9 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
     var service = task.Result as IMyService;
 });
                 </code></pre>
+
+                <h3>注意事项</h3>
+                <p>由于Service的DLL是提前编译好的，因此若存在平台相关的API调用，则需要通过预编译宏生成不同平台的版本，然后在Unity中指定DLL所适用的具体平台。</p>
             </div>
         </section>
 
