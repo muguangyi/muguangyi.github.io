@@ -280,8 +280,7 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
                 <pre><code>public interface IMyService : IService
 {
     void HelloMyService();
-}                    
-                </code></pre>
+}</code></pre>
                 <li>实现Service接口，确保实现类为非public</li>
                 <pre><code>class MyService : IMyService
 {
@@ -314,8 +313,7 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
     {
         // Service结束时清理操作可以在这里处理
     }
-}                
-                </code></pre>
+}</code></pre>
 
                 <h3>实现Service安装器</h3>
                 <p>继承并实现ServiceInstaller&lt;IMyService&gt;</p>
@@ -325,8 +323,7 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
     {
         return new MyService(); // 实例化具体的Service对象
     }
-}                
-                </code></pre>
+}</code></pre>
 
                 <h3>使用</h3>
                 <li>编译项目，将生成的DLL放在Unity项目中</li>
@@ -337,13 +334,11 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
                 <pre><code>new ServiceTask&lt;IMyService&gt;().Start().Continue(task =>
 {
     var service = task.Result as IMyService;
-});
-                </code></pre>
+});</code></pre>
                 <pre><code>new ServiceTask("com.giant.service.myservice")).Start().Continue(task =>
 {
     var service = task.Result as IMyService;
-});
-                </code></pre>
+});</code></pre>
 
                 <h3>注意事项</h3>
                 <p>由于Service的DLL是提前编译好的，因此若存在平台相关的API调用，则需要通过预编译宏生成不同平台的版本，然后在Unity中指定DLL所适用的具体平台。</p>
