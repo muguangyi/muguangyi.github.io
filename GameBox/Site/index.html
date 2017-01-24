@@ -53,6 +53,7 @@
                 sections['docs'] = document.getElementById('docs');
                 sections['guide'] = document.getElementById('guide');
                 sections['debug'] = document.getElementById('debug');
+                sections['service'] = document.getElementById('service');
                 sections['help'] = document.getElementById('help');
                 sections['about'] = document.getElementById('about');
                 toggle('about');
@@ -97,6 +98,7 @@
                     <a href="#docs" onclick="toggle('docs')">快速接入</a>
                     <a href="#guide" onclick="toggle('guide')">使用</a>
                     <a href="#debug" onclick="toggle('debug')">远程Debug</a>
+                    <a href="#service" onclick="toggle('service')">Service插件开发</a>
                     <a href="#help" onclick="toggle('help')">API文档</a>
                     <a href="#about" onclick="toggle('about')">技术支持</a>
                 </nav>
@@ -261,6 +263,87 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
                     <pre><code>console/loglevel?2</code></pre>
                 </section>
 
+            </div>
+        </section>
+
+        <section id="service" class="page">
+            <div class="content">
+                <h3>创建VisualStudio工程</h3>
+                <li>项目选择Class Library类型。</li>
+                <pre><code><img src="./img/project.png"></code></pre>
+                <li>项目属性中设置Target framework为.NET Framework 3.5</li>
+                <li>引用依赖添加UnityEngine.dll</li>
+                <li>引用依赖添加ServiceCenter.dll</li>
+
+                <h3>定义Service接口并实现</h3>
+                <li>定义Service接口，并继承IService接口</li>
+                <pre><code>public interface IMyService : IService
+{
+    void HelloMyService();
+}                    
+                </code></pre>
+                <li>实现Service接口，确保实现类为非public</li>
+                <pre><code>class MyService : IMyService
+{
+    // 实现IService接口
+    public string Id
+    {
+        get {
+            // 确保ID符合com.giant.service.XXXX格式，且唯一
+            return "com.giant.service.myservice";
+        }
+    }
+
+    public void Run(IServiceRunner runner)
+    {
+        runner.Ready(_Terminate);   // 通知runner当前Service已经准备完毕
+    }
+
+    public void Pulse(float delta)
+    {
+        // 每一帧需要触发的逻辑可以在这里处理
+    }
+
+    // 实现IMyService接口
+    public void HelloMyService()
+    {
+        Logger&lt;IMyService&gt;.L("Hello my service!");
+    }
+
+    private void _Terminate()
+    {
+        // Service结束时清理操作可以在这里处理
+    }
+}                
+                </code></pre>
+
+                <h3>实现Service安装器</h3>
+                <p>继承并实现ServiceInstaller&lt;IMyService&gt;</p>
+                <pre><code>public sealed class MyServiceInstaller : ServiceInstaller&lt;IMyService&gt;
+{
+    protected override IService Create()
+    {
+        return new MyService();
+    }
+}                
+                </code></pre>
+
+                <h3>使用</h3>
+                <li>将项目编译的DLL放在Unity项目中</li>
+                <li>将DLL暴露的MyServiceInstaller挂在ServicePlayer所在的GameObject上</li>
+                <li>通过同步或异步的方式获取IMyService接口</li>
+                <pre><code>ServiceCenter.GetService&lt;IMyService&gt;();</code></pre>
+                <pre><code>ServiceCenter.GetService("com.giant.service.myservice");</code></pre>
+                <pre><code>new ServiceTask&lt;IMyService&gt;().Start().Continue(task =>
+{
+    var service = task.Result as IMyService;
+});
+                </code></pre>
+                <pre><code>new ServiceTask("com.giant.service.myservice")).Start().Continue(task =>
+{
+    var service = task.Result as IMyService;
+});
+                </code></pre>
             </div>
         </section>
 
