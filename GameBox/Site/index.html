@@ -248,6 +248,19 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
                 <section id="example">
                     <pr><code><img src="./img/browser.png"></code></pr>
                 </section>
+
+                <h3>打开/关闭模块Log</h3>
+                <p>很多情况下，你不希望看到一些不必要的Log，可以在COMMAND栏中使用console命令打开或关闭，例如关闭GameBox.Service.AssetManager的Log。</p>
+                <section id="example">
+                    <pre><code>console/logscope?GameBox.Service.AssetManager=false</code></pre>
+                </section>
+
+                <h3>设置Log等级</h3>
+                <p>有些情况下，你希望过滤一些低等级的Log，可以在COMMAND栏中使用console命令设置。目前Log分为4个等级（Exception=0，Error=1，Warning=2，Verbose=3），例如设置Log等级为2。</p>
+                <section id="example">
+                    <pre><code>console/loglevel?2</code></pre>
+                </section>
+
             </div>
         </section>
 
