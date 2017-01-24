@@ -335,7 +335,7 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
 {
     var service = task.Result as IMyService;
 });</code></pre>
-                <pre><code>new ServiceTask("com.giant.service.myservice")).Start().Continue(task =>
+                <pre><code>new ServiceTask("com.giant.service.myservice").Start().Continue(task =>
 {
     var service = task.Result as IMyService;
 });</code></pre>
