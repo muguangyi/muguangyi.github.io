@@ -341,7 +341,8 @@ ServiceCenter.RemoteDebug(55000);</code></pre>
 });</code></pre>
 
                 <h3>注意事项</h3>
-                <p>由于Service的DLL是提前编译好的，因此若存在平台相关的API调用，则需要通过预编译宏生成不同平台的版本，然后在Unity中指定DLL所适用的具体平台。</p>
+                <li>Service都是以接口对外提供服务，因此所有具体实现体都要隐藏在模块内，不能以public方式暴露。</li>
+                <li>由于Service的DLL是提前编译好的，因此若存在平台相关的API调用，则需要通过预编译宏生成不同平台的版本，然后在Unity中指定DLL所适用的具体平台。</li>
             </div>
         </section>
 
