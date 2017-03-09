@@ -1,0 +1,136 @@
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>飞机太空战</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="robots" content="all">
+    <meta name="author" content="Tencent-TGideas">
+    <meta name="Copyright" content="Tencent">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+    //全局字体rem
+    (function(size) {
+        //获取初始的fontsize,16为比例标准
+        var originalSize = parseInt((window.getComputedStyle(document.documentElement, null)).fontSize);
+
+        function fn() {
+            var win_w = parseInt(document.body.clientWidth);
+            /* 对应页面对大宽度设置size */
+            win_w = (win_w>size)?size:win_w;
+            var html = document.getElementsByTagName('html')[0],
+                zoom = (win_w / size) / (originalSize / 16) * 100;
+            html.style.fontSize = zoom + 'px';
+        };
+        fn();
+        //横竖屏检测
+        function detectOtt() {
+            if (window.orientation == 90 || window.orientation == -90) {
+                $("#horizon").show();
+            } else if (window.orientation == 0 || window.orientation == 180) {
+                $("#horizon").hide();
+            }
+        }
+        window.onresize = function() {
+            detectOtt();
+        };
+
+    })(640);
+    </script>
+    <div class="testHei">
+        <div class="winHei" id="winHei"></div>
+    </div>
+    <div class="main setWinHei ">
+        <header>
+            <div class="box">
+                <div class="logos fl"></div>
+                <div class="title fl">
+                    <p class="ti">飞机太空战</p>
+                    <p class="tx">今日技术测试开启中</p>
+                    <p class="tv">version 1.0.x.0</p>
+                </div>
+                <a href="" class="dlBtn dTop fr">游戏下载</a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="column mainView">
+                <div class="slogan pa"></div>
+                <a href="" class="dlBtn dCenter pa">游戏下载</a>
+                <!-- <a href="javascript:;" class="guideBtn pa"><span>iOS用户游戏安装指南</span></a> -->
+            </div>
+        </div>
+    </div>
+    <div id="horizon" class="horizon">
+        <div class="horizon_box">
+            <div class="horizon_pic"><i></i></div>
+            <span>为了更好的体验，请将手机/平板竖过来</span>
+        </div>
+    </div>
+    <!-- 图片弹窗 -->
+    <div class="pop imgPop pf">
+        <a href="javascript:;" class="closePop pa">+</a>
+        <img src="images/popImg.png" >
+    </div>
+    <script type="text/javascript" src="js/swiper-3.2.7.jquery.min.js"></script>
+    <script type="text/javascript">
+        var iosDownloadUrl = "itms-services://?action=download-manifest&url=https://muguangyi.github.io/plane/plane.plist",
+            androidDownloadUrl = "http://omjl8l7y6.bkt.clouddn.com/plane.v1.0.3.r4005.apk";
+            
+            var winHei = parseInt($(window).height());
+            var winWid = parseInt($(window).width());
+        var browser = {
+            versions: function() {
+                var u = navigator.userAgent,
+                    app = navigator.appVersion;
+                return { //移动终端浏览器版本信息 
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+                    iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+                };
+            }(),
+            language: (navigator.browserLanguage || navigator.language).toLowerCase()
+        };
+
+        if (browser.versions.ios || browser.versions.iPhone || browser.versions.iPad){
+            //同时是webKit
+            if(browser.versions.webKit){
+                $('.dlBtn').attr('href',iosDownloadUrl);
+            }
+        }else{
+            $('.dlBtn').attr('href',androidDownloadUrl);
+        };
+        //设置容器高度
+        if(winWid>=640){
+            $('.setWinHei').css('height','1136px');
+        }else{
+            $('.setWinHei').css('height',$(window).height()+'px');
+        };
+        
+        //open pop
+        $('.guideBtn').on('touchstart',function(){
+            $('.imgPop').show();
+        });
+        $('.closePop').on('touchstart',function(){
+            $('.imgPop').hide();
+            return false;
+        });
+    </script>
+</body>
+
+</html>
